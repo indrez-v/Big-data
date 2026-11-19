@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Sentiment & Product Recommendation System</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#1e293b;--mute:#64748b;--brand:#4f46e5;--pos:#16a34a;--neu:#f59e0b;--neg:#dc2626;--line:#e2e8f0}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(120deg,#4f46e5,#7c3aed);color:#fff;padding:20px 28px}
+header h1{margin:0;font-size:22px} header p{margin:4px 0 0;opacity:.85;font-size:14px}
+nav{display:flex;gap:6px;padding:10px 28px;background:#fff;border-bottom:1px solid var(--line);flex-wrap:wrap;position:sticky;top:0;z-index:5}
+nav button{border:0;background:none;padding:9px 16px;border-radius:8px;cursor:pointer;font-size:14px;color:var(--mute);font-weight:600}
+nav button.active{background:#eef2ff;color:var(--brand)}
+main{padding:24px 28px;max-width:1250px;margin:auto}
+section{display:none} section.active{display:block}
+.grid{display:grid;gap:16px} .g4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))} .g2{grid-template-columns:repeat(auto-fit,minmax(380px,1fr))}
+.card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.card h3{margin:0 0 12px;font-size:16px}
+.kpi .v{font-size:28px;font-weight:700;color:var(--brand)} .kpi .l{color:var(--mute);font-size:13px}
+textarea,select,input{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font:inherit}
+button.btn{background:var(--brand);color:#fff;border:0;padding:10px 18px;border-radius:8px;cursor:pointer;font-weight:600;margin-top:10px}
+button.chip{background:#eef2ff;color:var(--brand);border:0;padding:6px 10px;border-radius:16px;cursor:pointer;font-size:12px;margin:6px 6px 0 0}
+table{width:100%;border-collapse:collapse;font-size:14px} th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--mute);font-weight:600;font-size:12px;text-transform:uppercase}
+.badge{padding:3px 10px;border-radius:12px;color:#fff;font-size:12px;font-weight:600;display:inline-block}
+.positive{background:var(--pos)} .neutral{background:var(--neu)} .negative{background:var(--neg)}
+.bar{height:10px;background:#e5e7eb;border-radius:6px;overflow:hidden;margin:4px 0 10px} .bar>div{height:100%}
+.rec{border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:12px;display:flex;gap:14px}
+.rank{background:var(--brand);color:#fff;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;flex:none}
+.reason{font-size:13px;color:var(--mute);margin:3px 0}
+.row{display:flex;gap:10px;align-items:end;flex-wrap:wrap} .row>div{flex:1;min-width:160px}
+.cm td{text-align:center;font-weight:600} .tag{display:inline-block;background:#f1f5f9;padding:3px 9px;border-radius:12px;margin:3px;font-size:13px}
+.note{font-size:12px;color:var(--mute);margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🛍️ Customer Sentiment & Product Recommendation System</h1>
+  <p>Review sentiment classification • Complaint mining • Personalized recommendations • Model evaluation</p>
+</header>
+<nav id="nav">
+  <button class="active" data-tab="dash">Dashboard</button>
+  <button data-tab="analyze">Sentiment Analyzer</button>
+  <button data-tab="complaints">Customer Complaints</button>
+  <button data-tab="recs">Recommendations</button>
+  <button data-tab="eval">Evaluation Report</button>
+</nav>
+<main>
+
+<section id="dash" class="active">
+  <div class="grid g4" id="kpis"></div><br>
+  <div class="grid g2">
+    <div class="card"><h3>Sentiment Distribution</h3><canvas id="c_sent" height="200"></canvas></div>
+    <div class="card"><h3>Rating Distribution</h3><canvas id="c_rate" height="200"></canvas></div>
+    <div class="card"><h3>Sentiment by Category</h3><canvas id="c_cat" height="200"></canvas></div>
+    <div class="card"><h3>Top Rated Products</h3><table id="t_top"></table></div>
+  </div>
+</section>
+
+<section id="analyze">
+  <div class="grid g2">
+    <div class="card">
+      <h3>Analyze a Review</h3>
+      <textarea id="txt" rows="5" placeholder="Type or paste a customer review..."></textarea>
+      <div>
+        <button class="chip" onclick="sample(0)">Positive sample</button>
+        <button class="chip" onclick="sample(1)">Negative sample</button>
+        <button class="chip" onclick="sample(2)">Neutral sample</button>
+      </div>
+      <button class="btn" onclick="analyze()">Classify Sentiment</button>
+      <div id="res" style="margin-top:16px"></div>
+    </div>
+    <div class="card">
+      <h3>Browse Reviews</h3>
+      <div class="row">
+        <div><select id="f_sent" onchange="loadReviews()"><option value="">All sentiments</option><option>positive</option><option>neutral</option><option>negative</option></select></div>
+        <div><input id="f_q" placeholder="Search text / product" oninput="loadReviews()"></div>
+      </div>
+      <div style="max-height:440px;overflow:auto;margin-top:10px"><table id="t_rev"></table></div>
+    </div>
+  </div>
+</section>
+
+<section id="complaints">
+  <div class="grid g2">
+    <div class="card"><h3>Most Frequent Complaint Topics</h3><canvas id="c_asp" height="260"></canvas><div class="note" id="neg_note"></div></div>
+    <div class="card"><h3>Frequent Complaint Phrases (bigrams)</h3><div id="bigrams"></div>
+      <h3 style="margin-top:20px">Top Words by Sentiment (from classifier)</h3><div id="features"></div></div>
+  </div><br>
+  <div class="card"><h3>Products with Highest Complaint Rate</h3><table id="t_prob"></table></div>
+</section>
+
+<section id="recs">
+  <div class="card">
+    <div class="row">
+      <div><label>Customer</label><select id="user"></select></div>
+      <div style="max-width:140px"><label>Number of items</label><select id="k"><option>3</option><option selected>5</option><option>8</option></select></div>
+      <div style="flex:none;min-width:auto"><button class="btn" style="margin:0" onclick="recommend()">Get Recommendations</button></div>
+    </div>
+  </div><br>
+  <div id="recout"></div>
+</section>
+
+<section id="eval">
+  <div id="evalout"></div>
+</section>
+
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const api=async(u,o)=>(await fetch(u,o)).json();
+const C={positive:'#16a34a',neutral:'#f59e0b',negative:'#dc2626'};
+const charts={};
+function chart(id,cfg){ if(charts[id])charts[id].destroy(); charts[id]=new Chart($('#'+id),cfg); }
+const f=(x,d=3)=>Number(x).toFixed(d);
+const badge=s=>`<span class="badge ${s}">${s}</span>`;
+const loaded={};
+
+document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#nav button').forEach(x=>x.classList.remove('active')); b.classList.add('active');
+  document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
+  $('#'+b.dataset.tab).classList.add('active');
+  const t=b.dataset.tab; if(!loaded[t]){loaded[t]=1; ({dash:loadDash,analyze:loadReviews,complaints:loadComplaints,recs:loadUsers,eval:loadEval})[t]();}
+});
+
+/* ---------- Dashboard ---------- */
+async function loadDash(){
+  const d=await api('/api/overview');
+  $('#kpis').innerHTML=[['Total Reviews',d.kpis.reviews],['Customers',d.kpis.customers],['Products',d.kpis.products],['Average Rating',f(d.kpis.avg_rating,2)+' ★']]
+    .map(([l,v])=>`<div class="card kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+  chart('c_sent',{type:'doughnut',data:{labels:Object.keys(d.sentiment),datasets:[{data:Object.values(d.sentiment),backgroundColor:Object.keys(d.sentiment).map(k=>C[k])}]}});
+  chart('c_rate',{type:'bar',data:{labels:Object.keys(d.ratings).map(r=>r+'★'),datasets:[{data:Object.values(d.ratings),backgroundColor:'#4f46e5'}]},options:{plugins:{legend:{display:false}}}});
+  chart('c_cat',{type:'bar',data:{labels:d.by_category.map(x=>x.category),datasets:['positive','neutral','negative'].map(s=>({label:s,data:d.by_category.map(x=>x[s]),backgroundColor:C[s]}))},options:{scales:{x:{stacked:true},y:{stacked:true}}}});
+  $('#t_top').innerHTML='<tr><th>Product</th><th>Category</th><th>Avg ★</th><th>Reviews</th></tr>'+d.top_products.map(p=>`<tr><td>${p.product_name}</td><td>${p.category}</td><td>${f(p.avg_rating,2)}</td><td>${p.n}</td></tr>`).join('');
+}
+
+/* ---------- Analyzer ---------- */
+const SAMPLES=["Excellent quality and the battery life is excellent, lasts all day. Delivery was fast and the item arrived early.",
+ "Poor quality, it feels cheap and flimsy. Delivery was very late and the tracking was useless. The refund took forever.",
+ "It is okay, nothing special. Average product, does the job."];
+function sample(i){$('#txt').value=SAMPLES[i];}
+async function analyze(){
+  const r=await api('/api/predict',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:$('#txt').value})});
+  if(r.error){$('#res').innerHTML=`<p style="color:#dc2626">${r.error}</p>`;return;}
+  $('#res').innerHTML=`<h3>Result: ${badge(r.label)} <small style="color:#64748b">confidence ${f(r.confidence*100,1)}%</small></h3>`+
+   Object.entries(r.probs).map(([k,v])=>`<div>${k} — ${f(v*100,1)}%</div><div class="bar"><div style="width:${v*100}%;background:${C[k]}"></div></div>`).join('')+
+   (r.aspects.length?'<h4>Aspect-level sentiment</h4><table><tr><th>Aspect</th><th>Sentiment</th><th>Sentence</th></tr>'+r.aspects.map(a=>`<tr><td>${a.aspect}</td><td>${badge(a.sentiment)}</td><td>${a.sentence}</td></tr>`).join('')+'</table>':'');
+}
+async function loadReviews(){
+  const d=await api(`/api/reviews?sentiment=${$('#f_sent').value}&q=${encodeURIComponent($('#f_q').value)}`);
+  $('#t_rev').innerHTML='<tr><th>Product</th><th>★</th><th>Review</th><th>Predicted</th></tr>'+d.map(r=>`<tr><td>${r.product_name}<br><small>${r.user_name}</small></td><td>${r.rating}</td><td>${r.review_text}</td><td>${badge(r.pred_sentiment)}</td></tr>`).join('');
+}
+
+/* ---------- Complaints ---------- */
+async function loadComplaints(){
+  const d=await api('/api/complaints');
+  chart('c_asp',{type:'bar',data:{labels:d.aspects.map(a=>a.aspect),datasets:[{data:d.aspects.map(a=>a.count),backgroundColor:'#dc2626'}]},options:{indexAxis:'y',plugins:{legend:{display:false}}}});
+  $('#neg_note').textContent=`Based on ${d.negative_reviews} negative reviews (rating 1–2).`;
+  $('#bigrams').innerHTML=d.bigrams.map(b=>`<span class="tag">${b.phrase} <b>${b.count}</b></span>`).join('');
+  $('#features').innerHTML=Object.entries(d.features).map(([k,v])=>`<div style="margin:6px 0">${badge(k)} ${v.map(w=>`<span class="tag">${w}</span>`).join('')}</div>`).join('');
+  $('#t_prob').innerHTML='<tr><th>Product</th><th>Category</th><th>Reviews</th><th>Avg ★</th><th>Negative %</th><th>Main complaint</th></tr>'+
+    d.products.map(p=>`<tr><td>${p.product_name}</td><td>${p.category}</td><td>${p.n}</td><td>${f(p.avg_rating,2)}</td><td>${f(p.neg_pct,0)}%</td><td>${p.top_issue}</td></tr>`).join('');
+}
+
+/* ---------- Recommendations ---------- */
+async function loadUsers(){
+  const u=await api('/api/users');
+  $('#user').innerHTML=u.map(x=>`<option value="${x.user_id}">${x.user_id} — ${x.user_name}</option>`).join('');
+  recommend();
+}
+async function recommend(){
+  const d=await api(`/api/recommend/${$('#user').value}?k=${$('#k').value}`);
+  $('#recout').innerHTML=`<div class="grid g2">
+   <div class="card"><h3>⭐ Recommended for ${d.user.name}</h3>${d.recommendations.map((r,i)=>`
+     <div class="rec"><div class="rank">${i+1}</div><div style="flex:1">
+       <b>${r.name}</b> <span class="tag">${r.category}</span> <span style="float:right;font-weight:700">₹${r.price}</span>
+       <div class="reason">Predicted rating for you: <b>${f(r.predicted_rating,1)}★</b> • Avg rating ${f(r.avg_rating,1)}★ • Match score ${f(r.score*100,0)}%</div>
+       ${r.reasons.map(x=>`<div class="reason">✔ ${x}</div>`).join('')}</div></div>`).join('')}</div>
+   <div><div class="card"><h3>Customer Profile</h3><p>${d.user.purchases} purchases • avg rating given ${f(d.user.avg_rating,2)}★</p>
+     ${d.favourites.map(c=>`<div>${c.category} — ${c.share}%</div><div class="bar"><div style="width:${c.share}%;background:#4f46e5"></div></div>`).join('')}</div><br>
+     <div class="card"><h3>Purchase History</h3><div style="max-height:330px;overflow:auto"><table><tr><th>Product</th><th>★</th><th>Sentiment</th></tr>
+     ${d.history.map(h=>`<tr><td>${h.product_name}<br><small>${h.review_text}</small></td><td>${h.rating}</td><td>${badge(h.sentiment)}</td></tr>`).join('')}</table></div></div></div></div>`;
+}
+
+/* ---------- Evaluation ---------- */
+async function loadEval(){
+  const d=await api('/api/evaluation'); const s=d.sentiment, r=d.recsys;
+  const rep=s.report;
+  const cm=`<table class="cm"><tr><th></th>${s.labels.map(l=>`<th>Pred ${l}</th>`).join('')}</tr>`+s.confusion.map((row,i)=>{
+    const tot=row.reduce((a,b)=>a+b,0)||1;
+    return `<tr><th>Actual ${s.labels[i]}</th>${row.map((v,j)=>`<td style="background:rgba(${i==j?'22,163,74':'220,38,38'},${Math.min(.8,v/tot)})">${v}</td>`).join('')}</tr>`}).join('')+'</table>';
+  $('#evalout').innerHTML=`
+  <div class="card"><h3>1. Sentiment Classifier Evaluation</h3>
+    <p class="note">TF-IDF (1–2 grams) features • ${s.train_size} train / ${s.test_size} test reviews • Labels from rating: 4–5 positive, 3 neutral, 1–2 negative • Deployed model: <b>${s.deployed}</b> • 5-fold CV macro-F1: <b>${f(s.cv_mean)} ± ${f(s.cv_std)}</b></p>
+    <table><tr><th>Model</th><th>Accuracy</th><th>Precision (macro)</th><th>Recall (macro)</th><th>F1 (macro)</th></tr>
+    ${s.comparison.map(m=>`<tr><td>${m.model}</td><td>${f(m.accuracy)}</td><td>${f(m.precision)}</td><td>${f(m.recall)}</td><td>${f(m.f1)}</td></tr>`).join('')}</table></div><br>
+  <div class="grid g2">
+    <div class="card"><h3>Confusion Matrix (${s.deployed})</h3>${cm}</div>
+    <div class="card"><h3>Per-class Report</h3><table><tr><th>Class</th><th>Precision</th><th>Recall</th><th>F1</th><th>Support</th></tr>
+      ${s.labels.map(l=>`<tr><td>${badge(l)}</td><td>${f(rep[l].precision)}</td><td>${f(rep[l].recall)}</td><td>${f(rep[l]['f1-score'])}</td><td>${rep[l].support}</td></tr>`).join('')}</table></div>
+  </div><br>
+  <div class="card"><h3>2. Recommendation System Evaluation</h3>
+    <p class="note">Hold-out: 20% of each customer's reviews hidden for testing (${r.test_size} test / ${r.train_size} train interactions). Relevant item = hidden item rated ≥ 4. Ranking metrics at K=${r.k}, averaged over ${r.users_evaluated} customers.</p>
+    <table><tr><th>Method</th><th>Precision@${r.k}</th><th>Recall@${r.k}</th><th>Hit Rate@${r.k}</th><th>NDCG@${r.k}</th></tr>
+    ${[['Hybrid (CF + preference + sentiment)','hybrid'],['Item-based CF only','cf'],['Popularity baseline','popularity']].map(([n,k])=>`<tr><td>${n}</td><td>${f(r.ranking[k].precision)}</td><td>${f(r.ranking[k].recall)}</td><td>${f(r.ranking[k].hit_rate)}</td><td>${f(r.ranking[k].ndcg)}</td></tr>`).join('')}</table><br>
+    <table><tr><th>Rating prediction</th><th>RMSE</th><th>MAE</th></tr>
+    <tr><td>Item-based CF</td><td>${f(r.rating.cf_rmse)}</td><td>${f(r.rating.cf_mae)}</td></tr>
+    <tr><td>Item-mean baseline</td><td>${f(r.rating.base_rmse)}</td><td>${f(r.rating.base_mae)}</td></tr></table></div>`;
+}
+
+loaded.dash=1; loadDash();
+</script>
+</body>
+</html>

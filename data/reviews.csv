@@ -1,0 +1,903 @@
+review_id,user_id,user_name,product_id,product_name,category,price,rating,review_text,review_date
+1,U001,Divya Kumar,P026,Herbal Shampoo,Beauty,349,3,Smells lovely and fresh. Decent but not amazing. Delivery was very late and the tracking was useless. No visible results even after a month.,2024-03-30
+2,U001,Divya Kumar,P019,Data Science Handbook,Books,699,3,"Average product, does the job. The story is engaging and well written.",2024-01-07
+3,U001,Divya Kumar,P030,Budget Face Cream,Beauty,199,3,"Skin feels soft and glowing, no irritation. It is okay, nothing special. Customer support was rude and never solved my issue.",2024-04-09
+4,U001,Divya Kumar,P014,Air Fryer 4L,Home & Kitchen,5499,4,Very durable and built to last. Support team solved my issue right away. The box was damaged and the packaging was poor.,2025-10-05
+5,U001,Divya Kumar,P028,Sunscreen SPF50,Beauty,449,4,"Skin feels soft and glowing, no irritation.",2025-01-08
+6,U001,Divya Kumar,P021,Python for Beginners,Books,449,4,Delivery was fast and the item arrived early. Support team solved my issue right away. Packaging was neat and secure.,2025-11-30
+7,U001,Divya Kumar,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"It is fine, I expected a bit more. Very durable and built to last.",2024-08-22
+8,U002,Suresh Nair,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"No reply from customer service and the refund took forever. Not durable, it broke within a month. Very noisy while working.",2024-09-09
+9,U002,Suresh Nair,P027,Matte Lipstick Set,Beauty,799,4,Smells lovely and fresh. Customer service was helpful and replied quickly. Delivery was fast and the item arrived early.,2024-06-12
+10,U002,Suresh Nair,P025,Vitamin C Serum,Beauty,599,4,"Skin feels soft and glowing, no irritation. Arrived on time, shipping was quick.",2025-07-03
+11,U002,Suresh Nair,P030,Budget Face Cream,Beauty,199,3,Customer support was rude and never solved my issue. Smells lovely and fresh. Decent but not amazing. It caused skin irritation and breakouts.,2024-04-18
+12,U002,Suresh Nair,P002,Smart Watch X2,Electronics,3999,3,"It is fine, I expected a bit more. Excellent quality, feels premium. Arrived on time, shipping was quick.",2025-01-06
+13,U002,Suresh Nair,P024,Cheap Reprint Classics,Books,199,3,"It is fine, I expected a bit more. Too expensive, not worth the money.",2025-07-16
+14,U002,Suresh Nair,P026,Herbal Shampoo,Beauty,349,4,Support team solved my issue right away.,2025-12-07
+15,U003,Manoj Menon,P002,Smart Watch X2,Electronics,3999,5,Delivery was fast and the item arrived early.,2025-08-25
+16,U003,Manoj Menon,P005,Budget Smartphone S1,Electronics,8999,3,"Well packed, the box was in perfect condition. Customer service was helpful and replied quickly. It is fine, I expected a bit more.",2024-02-02
+17,U003,Manoj Menon,P011,Fast-Fashion Hoodie,Fashion,999,3,"Well packed, the box was in perfect condition. Decent but not amazing.",2025-02-20
+18,U003,Manoj Menon,P008,Running Shoes Air,Fashion,3499,5,"Packaging was neat and secure. Delivery was fast and the item arrived early. Excellent quality, feels premium.",2024-02-25
+19,U003,Manoj Menon,P009,Cotton Kurta Set,Fashion,1299,4,Packaging was neat and secure. Delivery was very late and the tracking was useless.,2024-03-18
+20,U003,Manoj Menon,P003,Bluetooth Speaker Mini,Electronics,1799,4,"Excellent quality, feels premium. Sound quality is crisp and clear.",2025-05-12
+21,U003,Manoj Menon,P030,Budget Face Cream,Beauty,199,2,The smell is strong and unpleasant. It caused skin irritation and breakouts.,2025-04-10
+22,U004,Arjun Kumar,P003,Bluetooth Speaker Mini,Electronics,1799,4,Great value for the price. Delivery was fast and the item arrived early. Customer service was helpful and replied quickly.,2025-05-03
+23,U004,Arjun Kumar,P014,Air Fryer 4L,Home & Kitchen,5499,5,"Arrived on time, shipping was quick. Customer service was helpful and replied quickly. Runs quietly.",2025-08-15
+24,U004,Arjun Kumar,P012,Sports Cap,Fashion,399,3,Decent but not amazing. Customer service was helpful and replied quickly.,2025-02-09
+25,U004,Arjun Kumar,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Average product, does the job. Support team solved my issue right away.",2025-07-04
+26,U004,Arjun Kumar,P015,Electric Kettle,Home & Kitchen,1199,4,Customer support was rude and never solved my issue. Runs quietly.,2024-06-10
+27,U004,Arjun Kumar,P028,Sunscreen SPF50,Beauty,449,5,Packaging was neat and secure.,2024-09-27
+28,U005,Vikram Reddy,P018,Vacuum Flask 1L,Home & Kitchen,899,4,Runs quietly. Great value for the price. Delivery was fast and the item arrived early.,2024-09-27
+29,U005,Vikram Reddy,P017,LED Study Lamp,Home & Kitchen,699,4,Easy to clean and maintain. Support team solved my issue right away. Delivery was fast and the item arrived early.,2025-07-18
+30,U005,Vikram Reddy,P014,Air Fryer 4L,Home & Kitchen,5499,5,"Not durable, it broke within a month. Easy to clean and maintain.",2024-02-12
+31,U005,Vikram Reddy,P019,Data Science Handbook,Books,699,4,Customer service was helpful and replied quickly. The content is boring and poorly explained.,2025-07-27
+32,U005,Vikram Reddy,P026,Herbal Shampoo,Beauty,349,3,"Works as described, neither good nor bad. It caused skin irritation and breakouts.",2024-01-26
+33,U005,Vikram Reddy,P006,Gaming Mouse RGB,Electronics,999,3,"It is okay, nothing special. Stopped working after a week, very poor quality. Packaging was neat and secure.",2024-02-09
+34,U005,Vikram Reddy,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Support team solved my issue right away. Easy to clean and maintain. It is fine, I expected a bit more.",2025-02-12
+35,U006,Suresh Kumar,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,Very durable and built to last. Runs quietly.,2025-09-02
+36,U006,Suresh Kumar,P014,Air Fryer 4L,Home & Kitchen,5499,5,Support team solved my issue right away.,2025-08-13
+37,U006,Suresh Kumar,P001,Wireless Earbuds Pro,Electronics,2499,4,"Battery life is excellent, lasts all day.",2025-11-17
+38,U006,Suresh Kumar,P018,Vacuum Flask 1L,Home & Kitchen,899,3,No reply from customer service and the refund took forever. Decent but not amazing.,2025-11-10
+39,U006,Suresh Kumar,P020,Mystery Novel Collection,Books,549,3,"The content is boring and poorly explained. Works as described, neither good nor bad. Print quality is sharp and the paper is good.",2025-11-11
+40,U006,Suresh Kumar,P009,Cotton Kurta Set,Fashion,1299,3,"Fits perfectly and true to size. Poor quality, it feels cheap and flimsy. It is okay, nothing special. Fabric feels rough and the stitching came apart.",2025-08-16
+41,U006,Suresh Kumar,P025,Vitamin C Serum,Beauty,599,4,Great value for the price.,2024-08-18
+42,U007,Nisha Singh,P025,Vitamin C Serum,Beauty,599,3,"Mixed feelings, some things are good and some are not. Smells lovely and fresh.",2025-08-12
+43,U007,Nisha Singh,P022,Self-Growth Guide,Books,399,4,"Well packed, the box was in perfect condition. Print quality is sharp and the paper is good.",2024-04-19
+44,U007,Nisha Singh,P027,Matte Lipstick Set,Beauty,799,2,"Too expensive, not worth the money. The smell is strong and unpleasant.",2024-05-04
+45,U007,Nisha Singh,P020,Mystery Novel Collection,Books,549,4,"Packaging was careless, the item came in a dented box. The story is engaging and well written.",2025-07-15
+46,U007,Nisha Singh,P024,Cheap Reprint Classics,Books,199,2,"Poor quality, it feels cheap and flimsy. The content is boring and poorly explained. Packaging was careless, the item came in a dented box.",2024-10-10
+47,U007,Nisha Singh,P026,Herbal Shampoo,Beauty,349,4,"Very affordable and worth every penny of the money. Skin feels soft and glowing, no irritation. Packaging was neat and secure.",2025-01-27
+48,U007,Nisha Singh,P023,History Illustrated,Books,899,4,"The story is engaging and well written. Shipping took two weeks, really disappointed with the delivery. Support team solved my issue right away.",2025-02-02
+49,U007,Nisha Singh,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Excellent quality, feels premium. Very affordable and worth every penny of the money. Average product, does the job.",2024-08-13
+50,U007,Nisha Singh,P021,Python for Beginners,Books,449,3,"Customer support was rude and never solved my issue. It is okay, nothing special. Arrived on time, shipping was quick. Really good quality and well made.",2024-05-10
+51,U008,Vikram Pillai,P011,Fast-Fashion Hoodie,Fashion,999,3,"Mixed feelings, some things are good and some are not. Packaging was neat and secure. Stopped working after a week, very poor quality.",2025-03-07
+52,U008,Vikram Pillai,P005,Budget Smartphone S1,Electronics,8999,2,Delivery was very late and the tracking was useless.,2025-10-29
+53,U008,Vikram Pillai,P024,Cheap Reprint Classics,Books,199,3,"Arrived on time, shipping was quick. Works as described, neither good nor bad. Customer support was rude and never solved my issue. The box was damaged and the packaging was poor.",2025-04-29
+54,U008,Vikram Pillai,P007,Classic Denim Jacket,Fashion,2299,4,"Fabric feels rough and the stitching came apart. Excellent quality, feels premium.",2024-01-27
+55,U008,Vikram Pillai,P008,Running Shoes Air,Fashion,3499,5,"Arrived on time, shipping was quick.",2025-09-06
+56,U008,Vikram Pillai,P021,Python for Beginners,Books,449,3,"The content is boring and poorly explained. Decent but not amazing. Very affordable and worth every penny of the money. Shipping took two weeks, really disappointed with the delivery.",2024-03-11
+57,U008,Vikram Pillai,P009,Cotton Kurta Set,Fashion,1299,3,"Color faded after the first wash. Excellent quality, feels premium. Decent but not amazing. Fabric feels rough and the stitching came apart.",2025-09-22
+58,U008,Vikram Pillai,P012,Sports Cap,Fashion,399,4,"Fabric is soft and comfortable. Great value for the price. Arrived on time, shipping was quick.",2025-04-20
+59,U009,Suresh Reddy,P030,Budget Face Cream,Beauty,199,4,"Really good quality and well made. Skin feels soft and glowing, no irritation. Saw visible results in two weeks.",2025-05-15
+60,U009,Suresh Reddy,P008,Running Shoes Air,Fashion,3499,4,Fits perfectly and true to size. Really good quality and well made.,2024-09-06
+61,U009,Suresh Reddy,P006,Gaming Mouse RGB,Electronics,999,4,"Excellent quality, feels premium.",2024-08-24
+62,U009,Suresh Reddy,P003,Bluetooth Speaker Mini,Electronics,1799,4,Support team solved my issue right away. Delivery was fast and the item arrived early.,2025-05-10
+63,U009,Suresh Reddy,P007,Classic Denim Jacket,Fashion,2299,3,"Customer support was rude and never solved my issue. It is okay, nothing special.",2024-02-16
+64,U009,Suresh Reddy,P028,Sunscreen SPF50,Beauty,449,4,"Saw visible results in two weeks. Stopped working after a week, very poor quality.",2025-08-10
+65,U009,Suresh Reddy,P029,Hair Oil Natural,Beauty,299,3,"Average product, does the job. The box was damaged and the packaging was poor. Support team solved my issue right away.",2025-02-14
+66,U009,Suresh Reddy,P002,Smart Watch X2,Electronics,3999,4,Really good quality and well made. Sound quality is crisp and clear. Customer service was helpful and replied quickly.,2025-03-02
+67,U009,Suresh Reddy,P021,Python for Beginners,Books,449,4,"Packaging was neat and secure. Great value for the price. Arrived on time, shipping was quick.",2024-07-31
+68,U009,Suresh Reddy,P024,Cheap Reprint Classics,Books,199,1,"Shipping took two weeks, really disappointed with the delivery. Packaging was careless, the item came in a dented box.",2025-04-26
+69,U010,Karthik Nair,P007,Classic Denim Jacket,Fashion,2299,4,"Well packed, the box was in perfect condition.",2024-09-29
+70,U010,Karthik Nair,P023,History Illustrated,Books,899,4,"Really good quality and well made. Arrived on time, shipping was quick.",2025-08-05
+71,U010,Karthik Nair,P017,LED Study Lamp,Home & Kitchen,699,3,"Very durable and built to last. Customer service was helpful and replied quickly. Works as described, neither good nor bad.",2024-02-10
+72,U010,Karthik Nair,P022,Self-Growth Guide,Books,399,3,Support team solved my issue right away. The story is engaging and well written. Decent but not amazing.,2024-06-28
+73,U010,Karthik Nair,P030,Budget Face Cream,Beauty,199,2,"Packaging was careless, the item came in a dented box. The smell is strong and unpleasant. No visible results even after a month.",2024-11-24
+74,U010,Karthik Nair,P012,Sports Cap,Fashion,399,4,"Size is wrong, the fit is very tight. Delivery was very late and the tracking was useless.",2024-11-18
+75,U010,Karthik Nair,P025,Vitamin C Serum,Beauty,599,4,"Skin feels soft and glowing, no irritation. Customer service was helpful and replied quickly. Stopped working after a week, very poor quality.",2024-07-11
+76,U010,Karthik Nair,P028,Sunscreen SPF50,Beauty,449,4,Delivery was very late and the tracking was useless.,2025-05-11
+77,U010,Karthik Nair,P024,Cheap Reprint Classics,Books,199,2,The box was damaged and the packaging was poor.,2025-02-21
+78,U011,Manoj Raj,P015,Electric Kettle,Home & Kitchen,1199,3,"Easy to clean and maintain. Average product, does the job. Runs quietly.",2025-12-23
+79,U011,Manoj Raj,P027,Matte Lipstick Set,Beauty,799,2,"The smell is strong and unpleasant. Too expensive, not worth the money.",2024-03-12
+80,U011,Manoj Raj,P023,History Illustrated,Books,899,4,"The story is engaging and well written. Really good quality and well made. Well packed, the box was in perfect condition.",2025-08-24
+81,U011,Manoj Raj,P024,Cheap Reprint Classics,Books,199,3,"Print quality is bad and the pages are loose. Mixed feelings, some things are good and some are not.",2025-01-27
+82,U011,Manoj Raj,P019,Data Science Handbook,Books,699,5,The content is boring and poorly explained. Print quality is sharp and the paper is good.,2025-01-25
+83,U011,Manoj Raj,P020,Mystery Novel Collection,Books,549,3,Decent but not amazing. Customer support was rude and never solved my issue.,2025-03-26
+84,U011,Manoj Raj,P026,Herbal Shampoo,Beauty,349,3,"No visible results even after a month. It is fine, I expected a bit more.",2024-06-07
+85,U011,Manoj Raj,P021,Python for Beginners,Books,449,4,"Poor quality, it feels cheap and flimsy. Great value for the price. Print quality is sharp and the paper is good.",2025-11-21
+86,U011,Manoj Raj,P030,Budget Face Cream,Beauty,199,1,The box was damaged and the packaging was poor. The smell is strong and unpleasant.,2024-04-02
+87,U011,Manoj Raj,P025,Vitamin C Serum,Beauty,599,5,"Skin feels soft and glowing, no irritation. Excellent quality, feels premium.",2024-10-27
+88,U011,Manoj Raj,P004,Power Bank 20000mAh,Electronics,1499,4,"Sound quality is crisp and clear. Support team solved my issue right away. Battery life is excellent, lasts all day.",2024-03-21
+89,U012,Manoj Reddy,P028,Sunscreen SPF50,Beauty,449,4,"Support team solved my issue right away. Poor quality, it feels cheap and flimsy. Very affordable and worth every penny of the money.",2025-03-10
+90,U012,Manoj Reddy,P010,Leather Wallet,Fashion,799,4,"Arrived on time, shipping was quick. Fabric is soft and comfortable.",2025-12-17
+91,U012,Manoj Reddy,P025,Vitamin C Serum,Beauty,599,4,"Skin feels soft and glowing, no irritation.",2024-10-20
+92,U012,Manoj Reddy,P011,Fast-Fashion Hoodie,Fashion,999,1,"Overpriced for what you get. Size is wrong, the fit is very tight. Arrived on time, shipping was quick.",2025-11-25
+93,U012,Manoj Reddy,P017,LED Study Lamp,Home & Kitchen,699,4,Really good quality and well made.,2025-03-01
+94,U012,Manoj Reddy,P006,Gaming Mouse RGB,Electronics,999,4,No reply from customer service and the refund took forever.,2024-10-06
+95,U012,Manoj Reddy,P029,Hair Oil Natural,Beauty,299,3,"The box was damaged and the packaging was poor. No visible results even after a month. Works as described, neither good nor bad.",2024-04-27
+96,U012,Manoj Reddy,P001,Wireless Earbuds Pro,Electronics,2499,5,Support team solved my issue right away.,2025-02-08
+97,U012,Manoj Reddy,P005,Budget Smartphone S1,Electronics,8999,3,"Mixed feelings, some things are good and some are not. Battery life is excellent, lasts all day. Shipping took two weeks, really disappointed with the delivery. Performance is laggy and it keeps hanging.",2025-01-25
+98,U013,Manoj Reddy,P027,Matte Lipstick Set,Beauty,799,3,"Packaging was neat and secure. Arrived on time, shipping was quick. Mixed feelings, some things are good and some are not.",2024-11-07
+99,U013,Manoj Reddy,P012,Sports Cap,Fashion,399,3,"Mixed feelings, some things are good and some are not. Well packed, the box was in perfect condition. Fabric feels rough and the stitching came apart.",2024-06-07
+100,U013,Manoj Reddy,P006,Gaming Mouse RGB,Electronics,999,4,Really good quality and well made. Sound quality is crisp and clear.,2025-03-30
+101,U013,Manoj Reddy,P001,Wireless Earbuds Pro,Electronics,2499,4,"Excellent quality, feels premium.",2025-04-10
+102,U013,Manoj Reddy,P002,Smart Watch X2,Electronics,3999,5,Great value for the price.,2024-12-07
+103,U013,Manoj Reddy,P003,Bluetooth Speaker Mini,Electronics,1799,4,"Battery life is excellent, lasts all day.",2024-08-09
+104,U014,Vikram Iyer,P028,Sunscreen SPF50,Beauty,449,4,Delivery was fast and the item arrived early. Packaging was neat and secure. Saw visible results in two weeks.,2024-04-22
+105,U014,Vikram Iyer,P006,Gaming Mouse RGB,Electronics,999,3,"Performance is smooth and responsive. Sound quality is crisp and clear. It is okay, nothing special.",2024-03-06
+106,U014,Vikram Iyer,P027,Matte Lipstick Set,Beauty,799,4,"Customer support was rude and never solved my issue. Stopped working after a week, very poor quality. Skin feels soft and glowing, no irritation.",2025-11-05
+107,U014,Vikram Iyer,P021,Python for Beginners,Books,449,4,"Support team solved my issue right away. Well packed, the box was in perfect condition.",2024-03-23
+108,U014,Vikram Iyer,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Customer support was rude and never solved my issue. Poor quality, it feels cheap and flimsy. Very noisy while working. Decent but not amazing.",2025-09-03
+109,U014,Vikram Iyer,P029,Hair Oil Natural,Beauty,299,3,"Well packed, the box was in perfect condition. Great value for the price. Decent but not amazing.",2025-02-12
+110,U014,Vikram Iyer,P003,Bluetooth Speaker Mini,Electronics,1799,3,"It is fine, I expected a bit more. Sound quality is crisp and clear.",2024-03-28
+111,U014,Vikram Iyer,P002,Smart Watch X2,Electronics,3999,4,Sound quality is crisp and clear.,2025-11-17
+112,U015,Priya Reddy,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Runs quietly. Well packed, the box was in perfect condition. Arrived on time, shipping was quick.",2024-06-07
+113,U015,Priya Reddy,P021,Python for Beginners,Books,449,5,"The story is engaging and well written. Support team solved my issue right away. Arrived on time, shipping was quick.",2025-09-20
+114,U015,Priya Reddy,P026,Herbal Shampoo,Beauty,349,3,"Average product, does the job. Too expensive, not worth the money.",2024-12-25
+115,U015,Priya Reddy,P017,LED Study Lamp,Home & Kitchen,699,5,Easy to clean and maintain.,2025-06-27
+116,U015,Priya Reddy,P003,Bluetooth Speaker Mini,Electronics,1799,4,"Battery life is excellent, lasts all day. Sound quality is crisp and clear. Support team solved my issue right away.",2024-11-15
+117,U015,Priya Reddy,P010,Leather Wallet,Fashion,799,3,"Stopped working after a week, very poor quality. Fabric is soft and comfortable. Mixed feelings, some things are good and some are not.",2025-02-28
+118,U015,Priya Reddy,P015,Electric Kettle,Home & Kitchen,1199,4,"Customer service was helpful and replied quickly. Arrived on time, shipping was quick. The box was damaged and the packaging was poor.",2025-06-23
+119,U015,Priya Reddy,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Easy to clean and maintain. Packaging was careless, the item came in a dented box. Runs quietly. It is okay, nothing special.",2025-05-24
+120,U015,Priya Reddy,P006,Gaming Mouse RGB,Electronics,999,4,Sound quality is crisp and clear. Support team solved my issue right away.,2024-03-20
+121,U015,Priya Reddy,P001,Wireless Earbuds Pro,Electronics,2499,4,"Battery life is excellent, lasts all day. Arrived on time, shipping was quick.",2025-09-24
+122,U016,Ajay Raj,P015,Electric Kettle,Home & Kitchen,1199,5,Packaging was neat and secure.,2024-06-21
+123,U016,Ajay Raj,P029,Hair Oil Natural,Beauty,299,3,"Average product, does the job. Really good quality and well made.",2025-10-22
+124,U016,Ajay Raj,P021,Python for Beginners,Books,449,4,"Packaging was careless, the item came in a dented box.",2025-11-02
+125,U016,Ajay Raj,P017,LED Study Lamp,Home & Kitchen,699,4,Very durable and built to last. Easy to clean and maintain. Runs quietly.,2025-11-28
+126,U016,Ajay Raj,P023,History Illustrated,Books,899,3,"Delivery was fast and the item arrived early. Very affordable and worth every penny of the money. Excellent quality, feels premium. Decent but not amazing.",2024-12-26
+127,U016,Ajay Raj,P022,Self-Growth Guide,Books,399,4,Print quality is sharp and the paper is good. Customer service was helpful and replied quickly.,2024-02-12
+128,U016,Ajay Raj,P030,Budget Face Cream,Beauty,199,3,"It is okay, nothing special. It caused skin irritation and breakouts.",2025-04-06
+129,U017,Meena Das,P011,Fast-Fashion Hoodie,Fashion,999,3,"Delivery was very late and the tracking was useless. Fabric is soft and comfortable. It is okay, nothing special. Fits perfectly and true to size.",2024-12-12
+130,U017,Meena Das,P023,History Illustrated,Books,899,4,Very affordable and worth every penny of the money. The story is engaging and well written.,2024-05-24
+131,U017,Meena Das,P010,Leather Wallet,Fashion,799,4,"Well packed, the box was in perfect condition. Fits perfectly and true to size. Fabric is soft and comfortable.",2024-05-10
+132,U017,Meena Das,P012,Sports Cap,Fashion,399,4,"Poor quality, it feels cheap and flimsy.",2025-05-12
+133,U017,Meena Das,P005,Budget Smartphone S1,Electronics,8999,2,"Delivery was very late and the tracking was useless. Battery drains very fast, terrible battery life. Overpriced for what you get.",2025-07-06
+134,U017,Meena Das,P027,Matte Lipstick Set,Beauty,799,4,"Skin feels soft and glowing, no irritation. Saw visible results in two weeks.",2024-02-14
+135,U017,Meena Das,P008,Running Shoes Air,Fashion,3499,5,Fits perfectly and true to size.,2025-04-25
+136,U017,Meena Das,P020,Mystery Novel Collection,Books,549,5,Customer service was helpful and replied quickly. Print quality is sharp and the paper is good.,2024-10-15
+137,U018,Vikram Kumar,P020,Mystery Novel Collection,Books,549,4,Really good quality and well made. Customer service was helpful and replied quickly.,2024-06-13
+138,U018,Vikram Kumar,P018,Vacuum Flask 1L,Home & Kitchen,899,3,Decent but not amazing. Easy to clean and maintain.,2024-12-23
+139,U018,Vikram Kumar,P030,Budget Face Cream,Beauty,199,2,"Skin feels soft and glowing, no irritation. The smell is strong and unpleasant. The box was damaged and the packaging was poor.",2024-04-11
+140,U018,Vikram Kumar,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,Delivery was fast and the item arrived early. Runs quietly.,2025-04-25
+141,U018,Vikram Kumar,P002,Smart Watch X2,Electronics,3999,4,Sound quality is crisp and clear.,2024-02-18
+142,U018,Vikram Kumar,P001,Wireless Earbuds Pro,Electronics,2499,5,"Delivery was fast and the item arrived early. Battery life is excellent, lasts all day. Customer service was helpful and replied quickly.",2025-05-26
+143,U018,Vikram Kumar,P014,Air Fryer 4L,Home & Kitchen,5499,5,Packaging was neat and secure. Support team solved my issue right away.,2025-06-20
+144,U018,Vikram Kumar,P003,Bluetooth Speaker Mini,Electronics,1799,4,"Customer service was helpful and replied quickly. Battery life is excellent, lasts all day.",2025-01-31
+145,U018,Vikram Kumar,P019,Data Science Handbook,Books,699,4,Customer service was helpful and replied quickly. Very affordable and worth every penny of the money.,2024-02-15
+146,U018,Vikram Kumar,P029,Hair Oil Natural,Beauty,299,2,Very affordable and worth every penny of the money. Smells lovely and fresh. Packaging was neat and secure.,2025-05-05
+147,U018,Vikram Kumar,P024,Cheap Reprint Classics,Books,199,2,"Poor quality, it feels cheap and flimsy. Overpriced for what you get. Shipping took two weeks, really disappointed with the delivery.",2025-02-11
+148,U019,Vikram Raj,P021,Python for Beginners,Books,449,5,"Well packed, the box was in perfect condition. Really good quality and well made.",2025-01-30
+149,U019,Vikram Raj,P027,Matte Lipstick Set,Beauty,799,4,Customer service was helpful and replied quickly.,2025-09-08
+150,U019,Vikram Raj,P019,Data Science Handbook,Books,699,4,"Excellent quality, feels premium. Support team solved my issue right away.",2024-10-29
+151,U019,Vikram Raj,P022,Self-Growth Guide,Books,399,3,"Overpriced for what you get. It is fine, I expected a bit more. The story is engaging and well written.",2025-09-21
+152,U019,Vikram Raj,P028,Sunscreen SPF50,Beauty,449,3,"Average product, does the job. Arrived on time, shipping was quick.",2025-11-26
+153,U019,Vikram Raj,P004,Power Bank 20000mAh,Electronics,1499,4,"Arrived on time, shipping was quick. Customer service was helpful and replied quickly. Well packed, the box was in perfect condition.",2025-01-27
+154,U019,Vikram Raj,P020,Mystery Novel Collection,Books,549,4,"Packaging was neat and secure. Arrived on time, shipping was quick.",2025-10-27
+155,U019,Vikram Raj,P030,Budget Face Cream,Beauty,199,4,Really good quality and well made. Customer service was helpful and replied quickly.,2025-12-21
+156,U019,Vikram Raj,P026,Herbal Shampoo,Beauty,349,5,No visible results even after a month.,2025-04-07
+157,U019,Vikram Raj,P024,Cheap Reprint Classics,Books,199,3,"Average product, does the job. Print quality is bad and the pages are loose. The box was damaged and the packaging was poor.",2024-10-24
+158,U019,Vikram Raj,P025,Vitamin C Serum,Beauty,599,4,"Arrived on time, shipping was quick. Great value for the price.",2024-08-30
+159,U020,Swathi Raj,P030,Budget Face Cream,Beauty,199,2,"Packaging was careless, the item came in a dented box. No visible results even after a month. Great value for the price.",2025-02-23
+160,U020,Swathi Raj,P019,Data Science Handbook,Books,699,3,"Customer support was rude and never solved my issue. Mixed feelings, some things are good and some are not. Delivery was fast and the item arrived early.",2024-05-12
+161,U020,Swathi Raj,P011,Fast-Fashion Hoodie,Fashion,999,3,"Mixed feelings, some things are good and some are not. Support team solved my issue right away.",2024-10-17
+162,U020,Swathi Raj,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Great value for the price.,2025-06-30
+163,U020,Swathi Raj,P008,Running Shoes Air,Fashion,3499,3,"Arrived on time, shipping was quick. Fabric feels rough and the stitching came apart. Color faded after the first wash. Mixed feelings, some things are good and some are not.",2024-12-11
+164,U020,Swathi Raj,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Very noisy while working. Packaging was neat and secure. It is okay, nothing special.",2025-10-19
+165,U020,Swathi Raj,P006,Gaming Mouse RGB,Electronics,999,3,"Very affordable and worth every penny of the money. Performance is laggy and it keeps hanging. Average product, does the job. Battery drains very fast, terrible battery life.",2024-12-14
+166,U020,Swathi Raj,P015,Electric Kettle,Home & Kitchen,1199,4,"Really good quality and well made. Packaging was careless, the item came in a dented box.",2024-09-30
+167,U020,Swathi Raj,P010,Leather Wallet,Fashion,799,4,"Fits perfectly and true to size. Well packed, the box was in perfect condition. Fabric is soft and comfortable.",2024-12-01
+168,U021,Rohit Menon,P011,Fast-Fashion Hoodie,Fashion,999,3,Decent but not amazing. Color faded after the first wash. Customer service was helpful and replied quickly.,2024-02-21
+169,U021,Rohit Menon,P007,Classic Denim Jacket,Fashion,2299,4,Delivery was fast and the item arrived early. Really good quality and well made.,2025-02-16
+170,U021,Rohit Menon,P005,Budget Smartphone S1,Electronics,8999,3,"Customer support was rude and never solved my issue. Works as described, neither good nor bad. Sound quality is crisp and clear.",2025-05-31
+171,U021,Rohit Menon,P028,Sunscreen SPF50,Beauty,449,4,Smells lovely and fresh.,2024-05-27
+172,U021,Rohit Menon,P003,Bluetooth Speaker Mini,Electronics,1799,4,Performance is smooth and responsive. Support team solved my issue right away.,2025-12-31
+173,U021,Rohit Menon,P009,Cotton Kurta Set,Fashion,1299,5,Fits perfectly and true to size. Customer service was helpful and replied quickly. Fabric is soft and comfortable.,2024-11-02
+174,U021,Rohit Menon,P030,Budget Face Cream,Beauty,199,3,"It is fine, I expected a bit more. Delivery was fast and the item arrived early. No reply from customer service and the refund took forever.",2025-08-20
+175,U021,Rohit Menon,P024,Cheap Reprint Classics,Books,199,1,"The box was damaged and the packaging was poor. Shipping took two weeks, really disappointed with the delivery. Customer support was rude and never solved my issue.",2024-05-31
+176,U021,Rohit Menon,P014,Air Fryer 4L,Home & Kitchen,5499,3,"Very noisy while working. Hard to clean and the coating peeled off. Works as described, neither good nor bad.",2024-07-27
+177,U021,Rohit Menon,P029,Hair Oil Natural,Beauty,299,3,"Works as described, neither good nor bad. Skin feels soft and glowing, no irritation. Customer support was rude and never solved my issue.",2024-06-26
+178,U022,Pooja Reddy,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Runs quietly. Very affordable and worth every penny of the money. Stopped working after a week, very poor quality.",2024-07-31
+179,U022,Pooja Reddy,P023,History Illustrated,Books,899,4,Overpriced for what you get.,2024-10-24
+180,U022,Pooja Reddy,P014,Air Fryer 4L,Home & Kitchen,5499,4,"Support team solved my issue right away. Not durable, it broke within a month. Excellent quality, feels premium.",2025-03-28
+181,U022,Pooja Reddy,P010,Leather Wallet,Fashion,799,3,"Arrived on time, shipping was quick. It is okay, nothing special.",2025-10-15
+182,U022,Pooja Reddy,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Too expensive, not worth the money.",2024-05-20
+183,U022,Pooja Reddy,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,Delivery was fast and the item arrived early. Easy to clean and maintain.,2024-11-24
+184,U022,Pooja Reddy,P028,Sunscreen SPF50,Beauty,449,5,"Too expensive, not worth the money. Delivery was fast and the item arrived early.",2024-06-28
+185,U022,Pooja Reddy,P029,Hair Oil Natural,Beauty,299,4,Customer service was helpful and replied quickly.,2024-02-08
+186,U022,Pooja Reddy,P026,Herbal Shampoo,Beauty,349,3,No visible results even after a month. It caused skin irritation and breakouts. Decent but not amazing.,2024-12-09
+187,U022,Pooja Reddy,P008,Running Shoes Air,Fashion,3499,4,"Support team solved my issue right away. Fits perfectly and true to size. Well packed, the box was in perfect condition.",2025-04-14
+188,U022,Pooja Reddy,P022,Self-Growth Guide,Books,399,3,"Delivery was very late and the tracking was useless. Average product, does the job. Stopped working after a week, very poor quality.",2025-06-11
+189,U022,Pooja Reddy,P001,Wireless Earbuds Pro,Electronics,2499,3,"Customer support was rude and never solved my issue. Performance is smooth and responsive. Average product, does the job.",2024-09-30
+190,U023,Priya Raj,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,"Packaging was careless, the item came in a dented box. Very durable and built to last.",2025-12-21
+191,U023,Priya Raj,P008,Running Shoes Air,Fashion,3499,5,Fabric is soft and comfortable. Fits perfectly and true to size.,2025-09-12
+192,U023,Priya Raj,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Packaging was careless, the item came in a dented box. Average product, does the job. Customer service was helpful and replied quickly. Excellent quality, feels premium.",2025-11-27
+193,U023,Priya Raj,P010,Leather Wallet,Fashion,799,4,"Color looks exactly like the photos. Arrived on time, shipping was quick. Customer service was helpful and replied quickly.",2024-07-29
+194,U023,Priya Raj,P014,Air Fryer 4L,Home & Kitchen,5499,4,"Delivery was fast and the item arrived early. Excellent quality, feels premium.",2025-11-19
+195,U023,Priya Raj,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Average product, does the job. Performance is smooth and responsive.",2024-03-02
+196,U023,Priya Raj,P020,Mystery Novel Collection,Books,549,4,"Very affordable and worth every penny of the money. Excellent quality, feels premium.",2025-10-23
+197,U023,Priya Raj,P015,Electric Kettle,Home & Kitchen,1199,4,Overpriced for what you get. Very durable and built to last.,2025-07-04
+198,U023,Priya Raj,P012,Sports Cap,Fashion,399,4,Fabric is soft and comfortable. Color looks exactly like the photos.,2025-07-11
+199,U024,Arjun Raj,P023,History Illustrated,Books,899,4,"Arrived on time, shipping was quick.",2024-07-30
+200,U024,Arjun Raj,P021,Python for Beginners,Books,449,4,"Well packed, the box was in perfect condition.",2025-12-21
+201,U024,Arjun Raj,P018,Vacuum Flask 1L,Home & Kitchen,899,1,No reply from customer service and the refund took forever.,2024-02-27
+202,U024,Arjun Raj,P020,Mystery Novel Collection,Books,549,4,The box was damaged and the packaging was poor. Very affordable and worth every penny of the money.,2025-11-19
+203,U024,Arjun Raj,P003,Bluetooth Speaker Mini,Electronics,1799,4,Sound quality is crisp and clear. No reply from customer service and the refund took forever. Really good quality and well made.,2024-06-28
+204,U024,Arjun Raj,P022,Self-Growth Guide,Books,399,3,"Average product, does the job. Very affordable and worth every penny of the money.",2025-02-22
+205,U024,Arjun Raj,P011,Fast-Fashion Hoodie,Fashion,999,2,"Fabric feels rough and the stitching came apart. Poor quality, it feels cheap and flimsy. Customer support was rude and never solved my issue.",2024-02-29
+206,U024,Arjun Raj,P028,Sunscreen SPF50,Beauty,449,3,"It is okay, nothing special. Really good quality and well made.",2025-01-14
+207,U024,Arjun Raj,P007,Classic Denim Jacket,Fashion,2299,3,"Color looks exactly like the photos. It is okay, nothing special.",2025-07-26
+208,U024,Arjun Raj,P008,Running Shoes Air,Fashion,3499,3,"The box was damaged and the packaging was poor. Fits perfectly and true to size. Stopped working after a week, very poor quality. Decent but not amazing.",2024-07-13
+209,U025,Pooja Sharma,P029,Hair Oil Natural,Beauty,299,3,"Excellent quality, feels premium. Overpriced for what you get. Average product, does the job.",2025-04-25
+210,U025,Pooja Sharma,P002,Smart Watch X2,Electronics,3999,3,"Sound quality is crisp and clear. Great value for the price. Decent but not amazing. Well packed, the box was in perfect condition.",2025-07-20
+211,U025,Pooja Sharma,P030,Budget Face Cream,Beauty,199,3,"It is okay, nothing special. It caused skin irritation and breakouts. Packaging was neat and secure. The smell is strong and unpleasant.",2024-06-21
+212,U025,Pooja Sharma,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"It is fine, I expected a bit more. The box was damaged and the packaging was poor.",2025-10-07
+213,U025,Pooja Sharma,P017,LED Study Lamp,Home & Kitchen,699,5,"Runs quietly. Arrived on time, shipping was quick.",2025-09-23
+214,U025,Pooja Sharma,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"It is okay, nothing special. Hard to clean and the coating peeled off.",2024-10-20
+215,U025,Pooja Sharma,P019,Data Science Handbook,Books,699,4,"Very affordable and worth every penny of the money. Excellent quality, feels premium.",2024-09-15
+216,U025,Pooja Sharma,P028,Sunscreen SPF50,Beauty,449,5,"The box was damaged and the packaging was poor. Skin feels soft and glowing, no irritation.",2024-08-19
+217,U025,Pooja Sharma,P014,Air Fryer 4L,Home & Kitchen,5499,4,"Well packed, the box was in perfect condition.",2025-12-20
+218,U025,Pooja Sharma,P024,Cheap Reprint Classics,Books,199,2,"Print quality is bad and the pages are loose. Shipping took two weeks, really disappointed with the delivery. Customer support was rude and never solved my issue.",2024-12-05
+219,U026,Vikram Menon,P009,Cotton Kurta Set,Fashion,1299,4,Packaging was neat and secure. Very affordable and worth every penny of the money.,2025-12-30
+220,U026,Vikram Menon,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"It is okay, nothing special. Hard to clean and the coating peeled off. Very noisy while working.",2025-07-07
+221,U026,Vikram Menon,P011,Fast-Fashion Hoodie,Fashion,999,3,Fabric is soft and comfortable. Color faded after the first wash. Very affordable and worth every penny of the money. Decent but not amazing.,2025-09-20
+222,U026,Vikram Menon,P007,Classic Denim Jacket,Fashion,2299,4,Fabric is soft and comfortable. Delivery was fast and the item arrived early. Support team solved my issue right away.,2025-08-22
+223,U026,Vikram Menon,P020,Mystery Novel Collection,Books,549,3,"Average product, does the job. Arrived on time, shipping was quick. Print quality is sharp and the paper is good.",2024-11-20
+224,U026,Vikram Menon,P003,Bluetooth Speaker Mini,Electronics,1799,2,"Sound quality is crisp and clear. Shipping took two weeks, really disappointed with the delivery.",2025-03-17
+225,U026,Vikram Menon,P026,Herbal Shampoo,Beauty,349,4,Really good quality and well made. Support team solved my issue right away. Smells lovely and fresh.,2024-03-27
+226,U026,Vikram Menon,P006,Gaming Mouse RGB,Electronics,999,3,"Customer service was helpful and replied quickly. Excellent quality, feels premium. Mixed feelings, some things are good and some are not.",2024-06-20
+227,U026,Vikram Menon,P012,Sports Cap,Fashion,399,3,"Arrived on time, shipping was quick. Works as described, neither good nor bad. Stopped working after a week, very poor quality.",2024-05-18
+228,U026,Vikram Menon,P010,Leather Wallet,Fashion,799,4,Great value for the price. Color looks exactly like the photos. Fabric feels rough and the stitching came apart.,2025-10-28
+229,U026,Vikram Menon,P008,Running Shoes Air,Fashion,3499,4,Fits perfectly and true to size.,2025-08-12
+230,U026,Vikram Menon,P015,Electric Kettle,Home & Kitchen,1199,3,"Overpriced for what you get. Mixed feelings, some things are good and some are not.",2025-07-31
+231,U027,Arjun Das,P015,Electric Kettle,Home & Kitchen,1199,3,"Hard to clean and the coating peeled off. It is fine, I expected a bit more.",2025-11-05
+232,U027,Arjun Das,P014,Air Fryer 4L,Home & Kitchen,5499,4,Easy to clean and maintain. Customer service was helpful and replied quickly. Delivery was fast and the item arrived early.,2025-02-14
+233,U027,Arjun Das,P021,Python for Beginners,Books,449,4,"The content is boring and poorly explained. Print quality is bad and the pages are loose. Excellent quality, feels premium.",2024-02-15
+234,U027,Arjun Das,P004,Power Bank 20000mAh,Electronics,1499,5,"Excellent quality, feels premium. Performance is smooth and responsive. Very affordable and worth every penny of the money.",2025-06-06
+235,U027,Arjun Das,P010,Leather Wallet,Fashion,799,4,Customer service was helpful and replied quickly. Very affordable and worth every penny of the money.,2024-05-25
+236,U027,Arjun Das,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Runs quietly. It is fine, I expected a bit more. Very affordable and worth every penny of the money. Delivery was very late and the tracking was useless.",2025-03-24
+237,U027,Arjun Das,P003,Bluetooth Speaker Mini,Electronics,1799,4,Sound quality is crisp and clear.,2025-04-18
+238,U027,Arjun Das,P022,Self-Growth Guide,Books,399,4,Delivery was fast and the item arrived early. The story is engaging and well written.,2025-03-18
+239,U027,Arjun Das,P008,Running Shoes Air,Fashion,3499,4,Packaging was neat and secure.,2025-12-21
+240,U027,Arjun Das,P007,Classic Denim Jacket,Fashion,2299,3,"Packaging was careless, the item came in a dented box. Too expensive, not worth the money. Decent but not amazing.",2024-07-20
+241,U027,Arjun Das,P020,Mystery Novel Collection,Books,549,4,The box was damaged and the packaging was poor. The story is engaging and well written. Very affordable and worth every penny of the money.,2025-04-13
+242,U028,Divya Iyer,P019,Data Science Handbook,Books,699,4,"Excellent quality, feels premium. Well packed, the box was in perfect condition.",2025-08-11
+243,U028,Divya Iyer,P009,Cotton Kurta Set,Fashion,1299,4,"Size is wrong, the fit is very tight.",2025-09-26
+244,U028,Divya Iyer,P007,Classic Denim Jacket,Fashion,2299,5,"Color looks exactly like the photos. Excellent quality, feels premium. Fits perfectly and true to size.",2025-01-28
+245,U028,Divya Iyer,P011,Fast-Fashion Hoodie,Fashion,999,3,"Color faded after the first wash. Support team solved my issue right away. It is okay, nothing special.",2024-06-21
+246,U028,Divya Iyer,P023,History Illustrated,Books,899,5,"Packaging was neat and secure. Excellent quality, feels premium. Arrived on time, shipping was quick.",2025-03-27
+247,U028,Divya Iyer,P024,Cheap Reprint Classics,Books,199,4,"Well packed, the box was in perfect condition.",2024-04-30
+248,U028,Divya Iyer,P025,Vitamin C Serum,Beauty,599,4,Smells lovely and fresh. Packaging was neat and secure. Support team solved my issue right away.,2025-09-16
+249,U028,Divya Iyer,P020,Mystery Novel Collection,Books,549,5,Customer service was helpful and replied quickly. Very affordable and worth every penny of the money.,2024-10-26
+250,U028,Divya Iyer,P027,Matte Lipstick Set,Beauty,799,4,"Very affordable and worth every penny of the money. Skin feels soft and glowing, no irritation. Well packed, the box was in perfect condition.",2024-10-10
+251,U029,Kavya Pillai,P017,LED Study Lamp,Home & Kitchen,699,3,"Very noisy while working. Too expensive, not worth the money. Mixed feelings, some things are good and some are not.",2025-01-12
+252,U029,Kavya Pillai,P026,Herbal Shampoo,Beauty,349,5,"Smells lovely and fresh. Well packed, the box was in perfect condition. Excellent quality, feels premium.",2024-03-05
+253,U029,Kavya Pillai,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Arrived on time, shipping was quick.",2025-11-29
+254,U029,Kavya Pillai,P001,Wireless Earbuds Pro,Electronics,2499,4,Performance is laggy and it keeps hanging. Delivery was fast and the item arrived early.,2024-06-10
+255,U029,Kavya Pillai,P029,Hair Oil Natural,Beauty,299,3,"It is okay, nothing special. Skin feels soft and glowing, no irritation.",2024-10-07
+256,U029,Kavya Pillai,P007,Classic Denim Jacket,Fashion,2299,4,"Excellent quality, feels premium. Color looks exactly like the photos. Fits perfectly and true to size.",2024-11-08
+257,U029,Kavya Pillai,P014,Air Fryer 4L,Home & Kitchen,5499,4,Easy to clean and maintain.,2024-12-17
+258,U029,Kavya Pillai,P002,Smart Watch X2,Electronics,3999,4,"Well packed, the box was in perfect condition.",2025-01-27
+259,U029,Kavya Pillai,P028,Sunscreen SPF50,Beauty,449,5,Great value for the price. Delivery was fast and the item arrived early. Customer service was helpful and replied quickly.,2024-05-16
+260,U030,Kavya Singh,P003,Bluetooth Speaker Mini,Electronics,1799,4,Sound quality is crisp and clear. Great value for the price. Really good quality and well made.,2024-05-06
+261,U030,Kavya Singh,P017,LED Study Lamp,Home & Kitchen,699,3,"Poor quality, it feels cheap and flimsy. No reply from customer service and the refund took forever. It is okay, nothing special.",2025-11-05
+262,U030,Kavya Singh,P016,Mixer Grinder 750W,Home & Kitchen,3299,2,Hard to clean and the coating peeled off. Delivery was very late and the tracking was useless.,2024-09-02
+263,U030,Kavya Singh,P030,Budget Face Cream,Beauty,199,3,"It is fine, I expected a bit more. It caused skin irritation and breakouts. Customer support was rude and never solved my issue.",2025-08-05
+264,U030,Kavya Singh,P001,Wireless Earbuds Pro,Electronics,2499,4,"Shipping took two weeks, really disappointed with the delivery.",2024-09-25
+265,U030,Kavya Singh,P009,Cotton Kurta Set,Fashion,1299,3,"It is fine, I expected a bit more. Fabric feels rough and the stitching came apart. Arrived on time, shipping was quick.",2025-03-01
+266,U031,Arjun Iyer,P021,Python for Beginners,Books,449,4,"Well packed, the box was in perfect condition.",2024-09-01
+267,U031,Arjun Iyer,P002,Smart Watch X2,Electronics,3999,4,"Great value for the price. Arrived on time, shipping was quick. Sound quality is crisp and clear.",2025-11-13
+268,U031,Arjun Iyer,P004,Power Bank 20000mAh,Electronics,1499,4,"Customer service was helpful and replied quickly. Battery life is excellent, lasts all day. Delivery was fast and the item arrived early.",2024-05-09
+269,U031,Arjun Iyer,P006,Gaming Mouse RGB,Electronics,999,5,"Battery life is excellent, lasts all day. Arrived on time, shipping was quick.",2025-05-23
+270,U031,Arjun Iyer,P023,History Illustrated,Books,899,4,"The story is engaging and well written. Delivery was fast and the item arrived early. Well packed, the box was in perfect condition.",2025-08-10
+271,U031,Arjun Iyer,P011,Fast-Fashion Hoodie,Fashion,999,2,Fabric feels rough and the stitching came apart. The box was damaged and the packaging was poor. Overpriced for what you get.,2024-02-06
+272,U031,Arjun Iyer,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Poor quality, it feels cheap and flimsy.",2024-02-23
+273,U031,Arjun Iyer,P028,Sunscreen SPF50,Beauty,449,4,"Skin feels soft and glowing, no irritation. Arrived on time, shipping was quick.",2024-10-16
+274,U032,Naveen Reddy,P021,Python for Beginners,Books,449,5,The story is engaging and well written.,2025-05-20
+275,U032,Naveen Reddy,P007,Classic Denim Jacket,Fashion,2299,4,"Arrived on time, shipping was quick. Very affordable and worth every penny of the money.",2025-07-08
+276,U032,Naveen Reddy,P005,Budget Smartphone S1,Electronics,8999,2,Sound is muffled and the audio keeps cutting out.,2025-06-26
+277,U032,Naveen Reddy,P029,Hair Oil Natural,Beauty,299,3,"The smell is strong and unpleasant. Mixed feelings, some things are good and some are not.",2024-02-14
+278,U032,Naveen Reddy,P004,Power Bank 20000mAh,Electronics,1499,4,"Great value for the price. Battery life is excellent, lasts all day. Really good quality and well made.",2024-04-07
+279,U032,Naveen Reddy,P024,Cheap Reprint Classics,Books,199,3,"It is okay, nothing special. Excellent quality, feels premium. Great value for the price.",2024-11-30
+280,U032,Naveen Reddy,P009,Cotton Kurta Set,Fashion,1299,3,"Fabric feels rough and the stitching came apart. It is okay, nothing special. Arrived on time, shipping was quick.",2025-04-22
+281,U032,Naveen Reddy,P006,Gaming Mouse RGB,Electronics,999,4,"Delivery was fast and the item arrived early. Packaging was careless, the item came in a dented box. Very affordable and worth every penny of the money.",2025-12-22
+282,U033,Vikram Iyer,P019,Data Science Handbook,Books,699,4,Delivery was fast and the item arrived early.,2025-07-17
+283,U033,Vikram Iyer,P006,Gaming Mouse RGB,Electronics,999,4,Really good quality and well made.,2024-08-15
+284,U033,Vikram Iyer,P023,History Illustrated,Books,899,4,Customer service was helpful and replied quickly.,2025-10-22
+285,U033,Vikram Iyer,P001,Wireless Earbuds Pro,Electronics,2499,5,"Well packed, the box was in perfect condition.",2025-03-30
+286,U033,Vikram Iyer,P007,Classic Denim Jacket,Fashion,2299,4,"Too expensive, not worth the money.",2025-04-17
+287,U033,Vikram Iyer,P024,Cheap Reprint Classics,Books,199,3,"It is okay, nothing special. Packaging was neat and secure. Very affordable and worth every penny of the money.",2025-11-30
+288,U033,Vikram Iyer,P021,Python for Beginners,Books,449,4,The story is engaging and well written.,2025-09-23
+289,U033,Vikram Iyer,P027,Matte Lipstick Set,Beauty,799,3,Decent but not amazing. Smells lovely and fresh.,2025-01-27
+290,U033,Vikram Iyer,P022,Self-Growth Guide,Books,399,4,"Support team solved my issue right away. Excellent quality, feels premium.",2025-01-02
+291,U033,Vikram Iyer,P002,Smart Watch X2,Electronics,3999,3,"It is okay, nothing special. Performance is laggy and it keeps hanging.",2024-10-14
+292,U033,Vikram Iyer,P010,Leather Wallet,Fashion,799,3,"Delivery was very late and the tracking was useless. Average product, does the job. Fabric feels rough and the stitching came apart.",2024-09-03
+293,U033,Vikram Iyer,P008,Running Shoes Air,Fashion,3499,3,"Delivery was very late and the tracking was useless. It is fine, I expected a bit more. Size is wrong, the fit is very tight.",2025-12-15
+294,U034,Anjali Iyer,P004,Power Bank 20000mAh,Electronics,1499,4,Performance is smooth and responsive.,2024-08-12
+295,U034,Anjali Iyer,P027,Matte Lipstick Set,Beauty,799,4,Delivery was fast and the item arrived early.,2024-11-27
+296,U034,Anjali Iyer,P026,Herbal Shampoo,Beauty,349,4,"Well packed, the box was in perfect condition. Very affordable and worth every penny of the money.",2025-06-22
+297,U034,Anjali Iyer,P006,Gaming Mouse RGB,Electronics,999,4,"Performance is smooth and responsive. Battery life is excellent, lasts all day. Very affordable and worth every penny of the money.",2025-03-23
+298,U034,Anjali Iyer,P002,Smart Watch X2,Electronics,3999,4,Sound quality is crisp and clear. Performance is laggy and it keeps hanging. Customer service was helpful and replied quickly.,2024-01-02
+299,U034,Anjali Iyer,P030,Budget Face Cream,Beauty,199,4,"Skin feels soft and glowing, no irritation. Well packed, the box was in perfect condition.",2024-08-31
+300,U035,Manoj Kumar,P005,Budget Smartphone S1,Electronics,8999,3,"Arrived on time, shipping was quick. Average product, does the job.",2024-09-19
+301,U035,Manoj Kumar,P029,Hair Oil Natural,Beauty,299,3,"Works as described, neither good nor bad. Packaging was neat and secure. Smells lovely and fresh.",2025-07-13
+302,U035,Manoj Kumar,P002,Smart Watch X2,Electronics,3999,3,"Mixed feelings, some things are good and some are not. Well packed, the box was in perfect condition.",2024-09-24
+303,U035,Manoj Kumar,P007,Classic Denim Jacket,Fashion,2299,5,Color looks exactly like the photos. Fits perfectly and true to size. Delivery was fast and the item arrived early.,2024-12-12
+304,U035,Manoj Kumar,P011,Fast-Fashion Hoodie,Fashion,999,2,Customer support was rude and never solved my issue. Fits perfectly and true to size.,2024-07-13
+305,U035,Manoj Kumar,P022,Self-Growth Guide,Books,399,3,"It is okay, nothing special. Really good quality and well made.",2025-01-04
+306,U035,Manoj Kumar,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Mixed feelings, some things are good and some are not. No reply from customer service and the refund took forever. Shipping took two weeks, really disappointed with the delivery. Really good quality and well made.",2024-06-23
+307,U035,Manoj Kumar,P021,Python for Beginners,Books,449,4,Really good quality and well made.,2025-01-13
+308,U035,Manoj Kumar,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,"Delivery was fast and the item arrived early. Well packed, the box was in perfect condition.",2024-08-19
+309,U035,Manoj Kumar,P027,Matte Lipstick Set,Beauty,799,3,"Shipping took two weeks, really disappointed with the delivery. The smell is strong and unpleasant. Poor quality, it feels cheap and flimsy. Works as described, neither good nor bad.",2024-08-20
+310,U035,Manoj Kumar,P008,Running Shoes Air,Fashion,3499,5,Great value for the price. Delivery was very late and the tracking was useless. Really good quality and well made.,2024-02-05
+311,U036,Karthik Pillai,P012,Sports Cap,Fashion,399,3,"Fabric feels rough and the stitching came apart. It is fine, I expected a bit more.",2024-03-09
+312,U036,Karthik Pillai,P010,Leather Wallet,Fashion,799,5,Fabric is soft and comfortable. Delivery was fast and the item arrived early. Really good quality and well made.,2024-01-13
+313,U036,Karthik Pillai,P026,Herbal Shampoo,Beauty,349,3,"Saw visible results in two weeks. It is okay, nothing special. Shipping took two weeks, really disappointed with the delivery. Well packed, the box was in perfect condition.",2025-08-08
+314,U036,Karthik Pillai,P020,Mystery Novel Collection,Books,549,4,"Arrived on time, shipping was quick. Very affordable and worth every penny of the money.",2024-10-02
+315,U036,Karthik Pillai,P024,Cheap Reprint Classics,Books,199,2,"Too expensive, not worth the money.",2024-08-21
+316,U036,Karthik Pillai,P019,Data Science Handbook,Books,699,3,"The content is boring and poorly explained. Mixed feelings, some things are good and some are not. Excellent quality, feels premium.",2024-11-24
+317,U036,Karthik Pillai,P009,Cotton Kurta Set,Fashion,1299,3,"Average product, does the job. Too expensive, not worth the money. Delivery was fast and the item arrived early. Color looks exactly like the photos.",2024-02-27
+318,U036,Karthik Pillai,P002,Smart Watch X2,Electronics,3999,3,"Really good quality and well made. Overpriced for what you get. It is okay, nothing special.",2024-02-21
+319,U036,Karthik Pillai,P007,Classic Denim Jacket,Fashion,2299,4,"Fits perfectly and true to size. Great value for the price. Well packed, the box was in perfect condition.",2025-04-30
+320,U036,Karthik Pillai,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Poor quality, it feels cheap and flimsy. Mixed feelings, some things are good and some are not.",2025-08-08
+321,U036,Karthik Pillai,P011,Fast-Fashion Hoodie,Fashion,999,4,Color faded after the first wash.,2025-11-29
+322,U036,Karthik Pillai,P018,Vacuum Flask 1L,Home & Kitchen,899,2,No reply from customer service and the refund took forever.,2024-01-09
+323,U037,Vikram Pillai,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Well packed, the box was in perfect condition. Arrived on time, shipping was quick.",2025-09-30
+324,U037,Vikram Pillai,P015,Electric Kettle,Home & Kitchen,1199,4,"Packaging was careless, the item came in a dented box. Too expensive, not worth the money.",2024-04-20
+325,U037,Vikram Pillai,P021,Python for Beginners,Books,449,5,Customer service was helpful and replied quickly.,2024-07-11
+326,U037,Vikram Pillai,P023,History Illustrated,Books,899,4,The story is engaging and well written. Very affordable and worth every penny of the money.,2025-09-06
+327,U037,Vikram Pillai,P014,Air Fryer 4L,Home & Kitchen,5499,4,"Really good quality and well made. Too expensive, not worth the money. Very durable and built to last.",2024-02-06
+328,U037,Vikram Pillai,P024,Cheap Reprint Classics,Books,199,3,"Great value for the price. Mixed feelings, some things are good and some are not.",2025-07-25
+329,U037,Vikram Pillai,P022,Self-Growth Guide,Books,399,4,"The story is engaging and well written. Arrived on time, shipping was quick.",2025-11-27
+330,U037,Vikram Pillai,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Customer service was helpful and replied quickly. Average product, does the job. Runs quietly.",2024-12-05
+331,U038,Ajay Raj,P004,Power Bank 20000mAh,Electronics,1499,4,Sound is muffled and the audio keeps cutting out. Customer service was helpful and replied quickly.,2024-07-24
+332,U038,Ajay Raj,P027,Matte Lipstick Set,Beauty,799,4,Great value for the price. Saw visible results in two weeks.,2025-05-14
+333,U038,Ajay Raj,P026,Herbal Shampoo,Beauty,349,4,Very affordable and worth every penny of the money.,2025-05-16
+334,U038,Ajay Raj,P015,Electric Kettle,Home & Kitchen,1199,5,"Arrived on time, shipping was quick. Runs quietly.",2025-05-03
+335,U038,Ajay Raj,P025,Vitamin C Serum,Beauty,599,4,"Stopped working after a week, very poor quality. Well packed, the box was in perfect condition. Skin feels soft and glowing, no irritation.",2024-01-05
+336,U038,Ajay Raj,P010,Leather Wallet,Fashion,799,4,"Support team solved my issue right away. Excellent quality, feels premium.",2024-02-16
+337,U038,Ajay Raj,P014,Air Fryer 4L,Home & Kitchen,5499,5,Easy to clean and maintain.,2024-07-11
+338,U038,Ajay Raj,P024,Cheap Reprint Classics,Books,199,2,The story is engaging and well written.,2024-05-14
+339,U038,Ajay Raj,P007,Classic Denim Jacket,Fashion,2299,3,Customer support was rude and never solved my issue. Fabric feels rough and the stitching came apart. Color looks exactly like the photos. Decent but not amazing.,2025-01-19
+340,U039,Rohit Raj,P021,Python for Beginners,Books,449,4,Great value for the price.,2025-10-07
+341,U039,Rohit Raj,P020,Mystery Novel Collection,Books,549,4,Print quality is sharp and the paper is good. Delivery was fast and the item arrived early.,2024-05-20
+342,U039,Rohit Raj,P012,Sports Cap,Fashion,399,4,Customer service was helpful and replied quickly.,2025-09-15
+343,U039,Rohit Raj,P010,Leather Wallet,Fashion,799,4,"Stopped working after a week, very poor quality. Fits perfectly and true to size.",2025-07-15
+344,U039,Rohit Raj,P022,Self-Growth Guide,Books,399,4,"The content is boring and poorly explained. Excellent quality, feels premium. The box was damaged and the packaging was poor.",2024-04-23
+345,U039,Rohit Raj,P011,Fast-Fashion Hoodie,Fashion,999,3,"Too expensive, not worth the money. Mixed feelings, some things are good and some are not.",2024-02-21
+346,U039,Rohit Raj,P008,Running Shoes Air,Fashion,3499,4,Delivery was fast and the item arrived early.,2024-04-28
+347,U040,Sneha Sharma,P007,Classic Denim Jacket,Fashion,2299,4,Color looks exactly like the photos. Great value for the price.,2025-02-14
+348,U040,Sneha Sharma,P009,Cotton Kurta Set,Fashion,1299,3,"Arrived on time, shipping was quick. Fabric feels rough and the stitching came apart. It is fine, I expected a bit more. Well packed, the box was in perfect condition.",2025-12-13
+349,U040,Sneha Sharma,P002,Smart Watch X2,Electronics,3999,3,"Performance is laggy and it keeps hanging. Arrived on time, shipping was quick. Works as described, neither good nor bad.",2024-05-13
+350,U040,Sneha Sharma,P001,Wireless Earbuds Pro,Electronics,2499,3,"Poor quality, it feels cheap and flimsy. It is fine, I expected a bit more. Battery life is excellent, lasts all day. Very affordable and worth every penny of the money.",2025-11-25
+351,U040,Sneha Sharma,P024,Cheap Reprint Classics,Books,199,3,"It is fine, I expected a bit more. Print quality is bad and the pages are loose. Stopped working after a week, very poor quality. The story is engaging and well written.",2024-06-09
+352,U040,Sneha Sharma,P014,Air Fryer 4L,Home & Kitchen,5499,4,Easy to clean and maintain. Runs quietly.,2025-10-20
+353,U040,Sneha Sharma,P008,Running Shoes Air,Fashion,3499,3,"Delivery was fast and the item arrived early. Color faded after the first wash. Poor quality, it feels cheap and flimsy. Works as described, neither good nor bad.",2025-05-24
+354,U040,Sneha Sharma,P017,LED Study Lamp,Home & Kitchen,699,4,Runs quietly.,2024-02-25
+355,U040,Sneha Sharma,P022,Self-Growth Guide,Books,399,3,"Well packed, the box was in perfect condition. Decent but not amazing. Shipping took two weeks, really disappointed with the delivery. Overpriced for what you get.",2024-04-09
+356,U040,Sneha Sharma,P012,Sports Cap,Fashion,399,3,Decent but not amazing. Customer support was rude and never solved my issue.,2025-02-23
+357,U040,Sneha Sharma,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Easy to clean and maintain.,2024-12-12
+358,U041,Manoj Das,P020,Mystery Novel Collection,Books,549,4,"Poor quality, it feels cheap and flimsy. Customer service was helpful and replied quickly. Print quality is sharp and the paper is good.",2024-02-19
+359,U041,Manoj Das,P005,Budget Smartphone S1,Electronics,8999,2,"Sound is muffled and the audio keeps cutting out. Stopped working after a week, very poor quality. No reply from customer service and the refund took forever.",2024-11-25
+360,U041,Manoj Das,P024,Cheap Reprint Classics,Books,199,2,No reply from customer service and the refund took forever. The content is boring and poorly explained.,2024-05-21
+361,U041,Manoj Das,P022,Self-Growth Guide,Books,399,4,Support team solved my issue right away.,2024-07-24
+362,U041,Manoj Das,P028,Sunscreen SPF50,Beauty,449,3,"Too expensive, not worth the money. No reply from customer service and the refund took forever. Decent but not amazing. The smell is strong and unpleasant.",2024-05-15
+363,U041,Manoj Das,P023,History Illustrated,Books,899,4,The story is engaging and well written.,2024-05-28
+364,U042,Sneha Reddy,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Decent but not amazing. Delivery was fast and the item arrived early. Too expensive, not worth the money. Really good quality and well made.",2024-07-27
+365,U042,Sneha Reddy,P007,Classic Denim Jacket,Fashion,2299,5,"Arrived on time, shipping was quick. Color looks exactly like the photos. Fits perfectly and true to size.",2024-11-16
+366,U042,Sneha Reddy,P017,LED Study Lamp,Home & Kitchen,699,3,"Very noisy while working. Packaging was neat and secure. It is fine, I expected a bit more.",2024-07-17
+367,U042,Sneha Reddy,P002,Smart Watch X2,Electronics,3999,4,Very affordable and worth every penny of the money.,2024-09-27
+368,U042,Sneha Reddy,P001,Wireless Earbuds Pro,Electronics,2499,5,"Great value for the price. Arrived on time, shipping was quick. Well packed, the box was in perfect condition.",2025-04-22
+369,U042,Sneha Reddy,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Well packed, the box was in perfect condition. Sound quality is crisp and clear. Works as described, neither good nor bad. No reply from customer service and the refund took forever.",2024-07-07
+370,U042,Sneha Reddy,P008,Running Shoes Air,Fashion,3499,4,"Color looks exactly like the photos. Customer service was helpful and replied quickly. Size is wrong, the fit is very tight.",2025-09-25
+371,U042,Sneha Reddy,P010,Leather Wallet,Fashion,799,4,"Support team solved my issue right away. Arrived on time, shipping was quick. Color looks exactly like the photos.",2024-09-19
+372,U042,Sneha Reddy,P026,Herbal Shampoo,Beauty,349,3,"Packaging was neat and secure. Delivery was very late and the tracking was useless. Mixed feelings, some things are good and some are not.",2024-07-16
+373,U042,Sneha Reddy,P021,Python for Beginners,Books,449,4,Support team solved my issue right away.,2024-04-16
+374,U042,Sneha Reddy,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"It is fine, I expected a bit more. Overpriced for what you get. Delivery was fast and the item arrived early. Really good quality and well made.",2024-03-14
+375,U043,Meena Reddy,P021,Python for Beginners,Books,449,4,Delivery was fast and the item arrived early. The story is engaging and well written. Customer service was helpful and replied quickly.,2024-05-01
+376,U043,Meena Reddy,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Packaging was careless, the item came in a dented box. Average product, does the job. Great value for the price.",2025-12-03
+377,U043,Meena Reddy,P023,History Illustrated,Books,899,4,The story is engaging and well written. The box was damaged and the packaging was poor.,2025-07-12
+378,U043,Meena Reddy,P024,Cheap Reprint Classics,Books,199,3,"Works as described, neither good nor bad. Arrived on time, shipping was quick.",2025-07-22
+379,U043,Meena Reddy,P012,Sports Cap,Fashion,399,3,"Very affordable and worth every penny of the money. Packaging was neat and secure. It is fine, I expected a bit more.",2024-08-04
+380,U043,Meena Reddy,P029,Hair Oil Natural,Beauty,299,3,"Packaging was careless, the item came in a dented box. Works as described, neither good nor bad. Very affordable and worth every penny of the money.",2025-07-16
+381,U043,Meena Reddy,P007,Classic Denim Jacket,Fashion,2299,3,"Really good quality and well made. It is fine, I expected a bit more.",2025-09-26
+382,U043,Meena Reddy,P025,Vitamin C Serum,Beauty,599,4,Very affordable and worth every penny of the money. Customer support was rude and never solved my issue. Smells lovely and fresh.,2025-12-11
+383,U043,Meena Reddy,P027,Matte Lipstick Set,Beauty,799,4,"Very affordable and worth every penny of the money. Skin feels soft and glowing, no irritation.",2024-10-10
+384,U043,Meena Reddy,P026,Herbal Shampoo,Beauty,349,3,"Packaging was careless, the item came in a dented box. No visible results even after a month. Mixed feelings, some things are good and some are not. It caused skin irritation and breakouts.",2025-05-13
+385,U043,Meena Reddy,P030,Budget Face Cream,Beauty,199,3,"Delivery was very late and the tracking was useless. Works as described, neither good nor bad. The smell is strong and unpleasant. No reply from customer service and the refund took forever.",2024-01-20
+386,U044,Rohit Nair,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Delivery was fast and the item arrived early. Average product, does the job. Not durable, it broke within a month.",2025-02-10
+387,U044,Rohit Nair,P008,Running Shoes Air,Fashion,3499,5,Color looks exactly like the photos. Very affordable and worth every penny of the money. Delivery was fast and the item arrived early.,2024-05-29
+388,U044,Rohit Nair,P021,Python for Beginners,Books,449,4,"Poor quality, it feels cheap and flimsy. Print quality is sharp and the paper is good.",2025-06-14
+389,U044,Rohit Nair,P006,Gaming Mouse RGB,Electronics,999,4,Support team solved my issue right away. Performance is smooth and responsive. Sound quality is crisp and clear.,2024-10-07
+390,U044,Rohit Nair,P017,LED Study Lamp,Home & Kitchen,699,3,Easy to clean and maintain. Decent but not amazing.,2025-01-20
+391,U044,Rohit Nair,P024,Cheap Reprint Classics,Books,199,4,"Well packed, the box was in perfect condition.",2025-03-26
+392,U044,Rohit Nair,P009,Cotton Kurta Set,Fashion,1299,4,Fits perfectly and true to size.,2024-07-10
+393,U044,Rohit Nair,P020,Mystery Novel Collection,Books,549,4,The story is engaging and well written. Really good quality and well made.,2024-04-26
+394,U044,Rohit Nair,P001,Wireless Earbuds Pro,Electronics,2499,4,Great value for the price.,2024-02-14
+395,U044,Rohit Nair,P026,Herbal Shampoo,Beauty,349,3,"The smell is strong and unpleasant. Customer support was rude and never solved my issue. Saw visible results in two weeks. Average product, does the job.",2024-07-03
+396,U045,Meena Pillai,P028,Sunscreen SPF50,Beauty,449,5,"Support team solved my issue right away. Packaging was neat and secure. Skin feels soft and glowing, no irritation.",2025-09-30
+397,U045,Meena Pillai,P006,Gaming Mouse RGB,Electronics,999,4,Sound quality is crisp and clear. Performance is smooth and responsive. The box was damaged and the packaging was poor.,2025-05-31
+398,U045,Meena Pillai,P005,Budget Smartphone S1,Electronics,8999,2,"Shipping took two weeks, really disappointed with the delivery.",2025-11-06
+399,U045,Meena Pillai,P024,Cheap Reprint Classics,Books,199,2,"Packaging was careless, the item came in a dented box. Poor quality, it feels cheap and flimsy.",2025-06-26
+400,U045,Meena Pillai,P020,Mystery Novel Collection,Books,549,4,"Print quality is bad and the pages are loose. Well packed, the box was in perfect condition.",2024-09-17
+401,U045,Meena Pillai,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Packaging was neat and secure. Support team solved my issue right away. Delivery was fast and the item arrived early.,2024-01-08
+402,U045,Meena Pillai,P009,Cotton Kurta Set,Fashion,1299,3,"Support team solved my issue right away. Too expensive, not worth the money. Color faded after the first wash. Average product, does the job.",2025-10-29
+403,U045,Meena Pillai,P019,Data Science Handbook,Books,699,3,"Average product, does the job. Overpriced for what you get. The content is boring and poorly explained. Poor quality, it feels cheap and flimsy.",2024-11-10
+404,U045,Meena Pillai,P025,Vitamin C Serum,Beauty,599,4,Delivery was very late and the tracking was useless. Packaging was neat and secure. Really good quality and well made.,2024-12-12
+405,U045,Meena Pillai,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Sound is muffled and the audio keeps cutting out. Mixed feelings, some things are good and some are not.",2025-09-15
+406,U045,Meena Pillai,P030,Budget Face Cream,Beauty,199,3,"Saw visible results in two weeks. Average product, does the job.",2024-02-28
+407,U045,Meena Pillai,P001,Wireless Earbuds Pro,Electronics,2499,3,"Great value for the price. Battery drains very fast, terrible battery life. Mixed feelings, some things are good and some are not. Shipping took two weeks, really disappointed with the delivery.",2024-08-25
+408,U046,Rohit Pillai,P027,Matte Lipstick Set,Beauty,799,3,"No reply from customer service and the refund took forever. Works as described, neither good nor bad.",2024-03-11
+409,U046,Rohit Pillai,P010,Leather Wallet,Fashion,799,4,Delivery was fast and the item arrived early. Very affordable and worth every penny of the money. Packaging was neat and secure.,2025-02-17
+410,U046,Rohit Pillai,P028,Sunscreen SPF50,Beauty,449,4,"No reply from customer service and the refund took forever. Skin feels soft and glowing, no irritation. Stopped working after a week, very poor quality.",2024-09-20
+411,U046,Rohit Pillai,P025,Vitamin C Serum,Beauty,599,5,Customer service was helpful and replied quickly.,2025-05-08
+412,U046,Rohit Pillai,P026,Herbal Shampoo,Beauty,349,3,"Works as described, neither good nor bad. The smell is strong and unpleasant. Too expensive, not worth the money.",2024-08-23
+413,U046,Rohit Pillai,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Very affordable and worth every penny of the money. Mixed feelings, some things are good and some are not. Excellent quality, feels premium. Performance is smooth and responsive.",2024-03-18
+414,U047,Meena Reddy,P023,History Illustrated,Books,899,2,"Packaging was neat and secure. Shipping took two weeks, really disappointed with the delivery.",2025-09-25
+415,U047,Meena Reddy,P012,Sports Cap,Fashion,399,4,Fits perfectly and true to size. Support team solved my issue right away.,2024-02-13
+416,U047,Meena Reddy,P009,Cotton Kurta Set,Fashion,1299,3,"Shipping took two weeks, really disappointed with the delivery. It is fine, I expected a bit more.",2025-08-13
+417,U047,Meena Reddy,P002,Smart Watch X2,Electronics,3999,3,"Packaging was careless, the item came in a dented box. Battery drains very fast, terrible battery life. Average product, does the job.",2024-06-27
+418,U047,Meena Reddy,P010,Leather Wallet,Fashion,799,5,Fits perfectly and true to size. Customer service was helpful and replied quickly.,2024-04-13
+419,U047,Meena Reddy,P008,Running Shoes Air,Fashion,3499,5,"Fabric is soft and comfortable. Well packed, the box was in perfect condition.",2024-07-07
+420,U047,Meena Reddy,P007,Classic Denim Jacket,Fashion,2299,4,Great value for the price. Customer service was helpful and replied quickly. Fits perfectly and true to size.,2024-07-03
+421,U048,Arjun Iyer,P001,Wireless Earbuds Pro,Electronics,2499,3,"Battery life is excellent, lasts all day. Sound quality is crisp and clear. Really good quality and well made. Mixed feelings, some things are good and some are not.",2025-10-07
+422,U048,Arjun Iyer,P006,Gaming Mouse RGB,Electronics,999,4,"Battery life is excellent, lasts all day. Very affordable and worth every penny of the money.",2024-12-08
+423,U048,Arjun Iyer,P008,Running Shoes Air,Fashion,3499,5,Very affordable and worth every penny of the money. Fabric is soft and comfortable. Color looks exactly like the photos.,2024-07-22
+424,U048,Arjun Iyer,P022,Self-Growth Guide,Books,399,3,"Well packed, the box was in perfect condition. Works as described, neither good nor bad. Print quality is bad and the pages are loose. Very affordable and worth every penny of the money.",2025-04-19
+425,U048,Arjun Iyer,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"No reply from customer service and the refund took forever. Average product, does the job. Stopped working after a week, very poor quality.",2025-10-22
+426,U048,Arjun Iyer,P011,Fast-Fashion Hoodie,Fashion,999,3,"Average product, does the job. Poor quality, it feels cheap and flimsy.",2024-01-24
+427,U048,Arjun Iyer,P019,Data Science Handbook,Books,699,5,Delivery was fast and the item arrived early. Print quality is sharp and the paper is good. Really good quality and well made.,2025-04-29
+428,U048,Arjun Iyer,P015,Electric Kettle,Home & Kitchen,1199,4,"Customer service was helpful and replied quickly. Really good quality and well made. Not durable, it broke within a month.",2024-09-10
+429,U048,Arjun Iyer,P026,Herbal Shampoo,Beauty,349,2,"No visible results even after a month. Packaging was careless, the item came in a dented box. It caused skin irritation and breakouts.",2024-10-05
+430,U048,Arjun Iyer,P027,Matte Lipstick Set,Beauty,799,3,"Really good quality and well made. Works as described, neither good nor bad. Smells lovely and fresh. Delivery was fast and the item arrived early.",2025-05-08
+431,U048,Arjun Iyer,P014,Air Fryer 4L,Home & Kitchen,5499,3,"No reply from customer service and the refund took forever. Delivery was very late and the tracking was useless. Works as described, neither good nor bad.",2025-05-18
+432,U048,Arjun Iyer,P009,Cotton Kurta Set,Fashion,1299,3,"Fabric is soft and comfortable. It is okay, nothing special. The box was damaged and the packaging was poor.",2025-07-28
+433,U049,Kavya Nair,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Runs quietly. Customer service was helpful and replied quickly. Excellent quality, feels premium.",2024-04-23
+434,U049,Kavya Nair,P012,Sports Cap,Fashion,399,3,Decent but not amazing. Customer support was rude and never solved my issue. Packaging was neat and secure.,2024-04-14
+435,U049,Kavya Nair,P014,Air Fryer 4L,Home & Kitchen,5499,4,Runs quietly. Very durable and built to last.,2025-05-25
+436,U049,Kavya Nair,P004,Power Bank 20000mAh,Electronics,1499,4,Performance is smooth and responsive.,2025-02-05
+437,U049,Kavya Nair,P028,Sunscreen SPF50,Beauty,449,5,Saw visible results in two weeks. Packaging was neat and secure.,2024-09-11
+438,U049,Kavya Nair,P020,Mystery Novel Collection,Books,549,3,"Stopped working after a week, very poor quality. The story is engaging and well written. It is fine, I expected a bit more.",2024-08-01
+439,U049,Kavya Nair,P019,Data Science Handbook,Books,699,4,Delivery was fast and the item arrived early. The story is engaging and well written.,2024-07-22
+440,U049,Kavya Nair,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,"Packaging was neat and secure. Stopped working after a week, very poor quality.",2024-06-20
+441,U049,Kavya Nair,P026,Herbal Shampoo,Beauty,349,4,Saw visible results in two weeks.,2024-09-11
+442,U050,Priya Kumar,P009,Cotton Kurta Set,Fashion,1299,5,Fits perfectly and true to size. Fabric is soft and comfortable. Really good quality and well made.,2024-11-20
+443,U050,Priya Kumar,P024,Cheap Reprint Classics,Books,199,2,"The content is boring and poorly explained. Stopped working after a week, very poor quality. The box was damaged and the packaging was poor.",2024-10-28
+444,U050,Priya Kumar,P002,Smart Watch X2,Electronics,3999,4,Support team solved my issue right away. Sound quality is crisp and clear.,2024-06-07
+445,U050,Priya Kumar,P014,Air Fryer 4L,Home & Kitchen,5499,4,Really good quality and well made. Very affordable and worth every penny of the money. Very durable and built to last.,2025-01-07
+446,U050,Priya Kumar,P011,Fast-Fashion Hoodie,Fashion,999,2,Fits perfectly and true to size. Delivery was fast and the item arrived early.,2024-11-26
+447,U050,Priya Kumar,P004,Power Bank 20000mAh,Electronics,1499,5,"Arrived on time, shipping was quick.",2024-07-15
+448,U050,Priya Kumar,P012,Sports Cap,Fashion,399,4,Customer service was helpful and replied quickly. Delivery was fast and the item arrived early. Great value for the price.,2025-06-22
+449,U051,Manoj Kumar,P020,Mystery Novel Collection,Books,549,4,Delivery was fast and the item arrived early. The content is boring and poorly explained. Print quality is sharp and the paper is good.,2024-09-29
+450,U051,Manoj Kumar,P023,History Illustrated,Books,899,3,"Customer support was rude and never solved my issue. Mixed feelings, some things are good and some are not.",2024-07-13
+451,U051,Manoj Kumar,P007,Classic Denim Jacket,Fashion,2299,3,"Fabric feels rough and the stitching came apart. Delivery was very late and the tracking was useless. Works as described, neither good nor bad. Packaging was careless, the item came in a dented box.",2025-04-14
+452,U051,Manoj Kumar,P024,Cheap Reprint Classics,Books,199,3,"Really good quality and well made. It is fine, I expected a bit more. The content is boring and poorly explained.",2024-11-28
+453,U051,Manoj Kumar,P030,Budget Face Cream,Beauty,199,3,"Arrived on time, shipping was quick. It is okay, nothing special. It caused skin irritation and breakouts.",2025-04-03
+454,U051,Manoj Kumar,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,Very durable and built to last.,2024-08-15
+455,U051,Manoj Kumar,P029,Hair Oil Natural,Beauty,299,3,"Average product, does the job. Well packed, the box was in perfect condition.",2025-08-08
+456,U051,Manoj Kumar,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"It is fine, I expected a bit more. Really good quality and well made.",2025-08-19
+457,U051,Manoj Kumar,P019,Data Science Handbook,Books,699,5,Packaging was neat and secure. Really good quality and well made.,2024-11-28
+458,U051,Manoj Kumar,P002,Smart Watch X2,Electronics,3999,3,"Well packed, the box was in perfect condition. It is okay, nothing special. Sound quality is crisp and clear.",2025-08-13
+459,U051,Manoj Kumar,P027,Matte Lipstick Set,Beauty,799,4,Smells lovely and fresh.,2025-09-08
+460,U051,Manoj Kumar,P014,Air Fryer 4L,Home & Kitchen,5499,5,Very durable and built to last.,2025-08-01
+461,U052,Rahul Kumar,P011,Fast-Fashion Hoodie,Fashion,999,2,Color faded after the first wash.,2024-12-10
+462,U052,Rahul Kumar,P019,Data Science Handbook,Books,699,4,"Excellent quality, feels premium.",2024-09-25
+463,U052,Rahul Kumar,P022,Self-Growth Guide,Books,399,3,"It is okay, nothing special. Customer support was rude and never solved my issue. Well packed, the box was in perfect condition. Print quality is bad and the pages are loose.",2025-02-08
+464,U052,Rahul Kumar,P020,Mystery Novel Collection,Books,549,4,Great value for the price. Packaging was neat and secure.,2025-03-09
+465,U052,Rahul Kumar,P030,Budget Face Cream,Beauty,199,1,"Overpriced for what you get. Stopped working after a week, very poor quality. Delivery was very late and the tracking was useless.",2025-03-28
+466,U052,Rahul Kumar,P002,Smart Watch X2,Electronics,3999,3,"Works as described, neither good nor bad. Too expensive, not worth the money.",2024-02-25
+467,U052,Rahul Kumar,P021,Python for Beginners,Books,449,5,Packaging was neat and secure. The story is engaging and well written.,2024-01-24
+468,U053,Pooja Das,P010,Leather Wallet,Fashion,799,4,Delivery was fast and the item arrived early. Very affordable and worth every penny of the money. Packaging was neat and secure.,2025-11-10
+469,U053,Pooja Das,P001,Wireless Earbuds Pro,Electronics,2499,4,"Well packed, the box was in perfect condition. Arrived on time, shipping was quick.",2025-11-06
+470,U053,Pooja Das,P008,Running Shoes Air,Fashion,3499,3,"Average product, does the job. Fits perfectly and true to size.",2025-12-27
+471,U053,Pooja Das,P009,Cotton Kurta Set,Fashion,1299,2,"Stopped working after a week, very poor quality.",2024-01-23
+472,U053,Pooja Das,P005,Budget Smartphone S1,Electronics,8999,3,"Mixed feelings, some things are good and some are not. Too expensive, not worth the money. Delivery was very late and the tracking was useless. Performance is laggy and it keeps hanging.",2025-02-06
+473,U053,Pooja Das,P004,Power Bank 20000mAh,Electronics,1499,3,"Support team solved my issue right away. The box was damaged and the packaging was poor. Sound is muffled and the audio keeps cutting out. Average product, does the job.",2024-01-31
+474,U053,Pooja Das,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,"Very durable and built to last. Excellent quality, feels premium.",2025-03-12
+475,U053,Pooja Das,P026,Herbal Shampoo,Beauty,349,3,"Works as described, neither good nor bad. The smell is strong and unpleasant.",2025-06-20
+476,U053,Pooja Das,P002,Smart Watch X2,Electronics,3999,5,Packaging was neat and secure. Performance is smooth and responsive. Very affordable and worth every penny of the money.,2025-06-29
+477,U054,Kavya Reddy,P008,Running Shoes Air,Fashion,3499,5,Customer service was helpful and replied quickly. Color looks exactly like the photos. Fabric is soft and comfortable.,2025-09-18
+478,U054,Kavya Reddy,P007,Classic Denim Jacket,Fashion,2299,4,"Size is wrong, the fit is very tight. Packaging was neat and secure.",2025-09-11
+479,U054,Kavya Reddy,P010,Leather Wallet,Fashion,799,5,Fabric is soft and comfortable. Packaging was neat and secure.,2024-01-16
+480,U054,Kavya Reddy,P009,Cotton Kurta Set,Fashion,1299,4,Color faded after the first wash. Fits perfectly and true to size. Very affordable and worth every penny of the money.,2025-03-25
+481,U054,Kavya Reddy,P018,Vacuum Flask 1L,Home & Kitchen,899,2,Delivery was very late and the tracking was useless. Customer support was rude and never solved my issue. Very noisy while working.,2025-08-08
+482,U054,Kavya Reddy,P030,Budget Face Cream,Beauty,199,3,"The smell is strong and unpleasant. Support team solved my issue right away. It caused skin irritation and breakouts. Average product, does the job.",2024-02-10
+483,U054,Kavya Reddy,P014,Air Fryer 4L,Home & Kitchen,5499,4,Runs quietly.,2025-06-13
+484,U054,Kavya Reddy,P004,Power Bank 20000mAh,Electronics,1499,4,Great value for the price.,2025-05-27
+485,U054,Kavya Reddy,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Excellent quality, feels premium. Runs quietly. Arrived on time, shipping was quick.",2025-04-09
+486,U054,Kavya Reddy,P017,LED Study Lamp,Home & Kitchen,699,4,Easy to clean and maintain. Very durable and built to last. Customer service was helpful and replied quickly.,2024-03-28
+487,U054,Kavya Reddy,P027,Matte Lipstick Set,Beauty,799,2,Overpriced for what you get.,2024-06-02
+488,U054,Kavya Reddy,P015,Electric Kettle,Home & Kitchen,1199,3,"Decent but not amazing. Runs quietly. Overpriced for what you get. Not durable, it broke within a month.",2024-11-12
+489,U055,Nisha Das,P012,Sports Cap,Fashion,399,3,"The box was damaged and the packaging was poor. No reply from customer service and the refund took forever. Mixed feelings, some things are good and some are not.",2025-02-23
+490,U055,Nisha Das,P025,Vitamin C Serum,Beauty,599,4,Very affordable and worth every penny of the money.,2024-07-31
+491,U055,Nisha Das,P002,Smart Watch X2,Electronics,3999,4,"Battery life is excellent, lasts all day. Delivery was very late and the tracking was useless.",2025-09-09
+492,U055,Nisha Das,P027,Matte Lipstick Set,Beauty,799,3,"Decent but not amazing. Overpriced for what you get. Really good quality and well made. Skin feels soft and glowing, no irritation.",2025-09-17
+493,U055,Nisha Das,P029,Hair Oil Natural,Beauty,299,4,Customer service was helpful and replied quickly. Great value for the price. Saw visible results in two weeks.,2024-05-04
+494,U055,Nisha Das,P019,Data Science Handbook,Books,699,4,"Print quality is sharp and the paper is good. The story is engaging and well written. Too expensive, not worth the money.",2025-12-06
+495,U055,Nisha Das,P021,Python for Beginners,Books,449,3,"The box was damaged and the packaging was poor. It is fine, I expected a bit more. The story is engaging and well written. Overpriced for what you get.",2024-07-03
+496,U055,Nisha Das,P030,Budget Face Cream,Beauty,199,3,"Mixed feelings, some things are good and some are not. Skin feels soft and glowing, no irritation.",2025-02-27
+497,U055,Nisha Das,P007,Classic Denim Jacket,Fashion,2299,3,"Average product, does the job. Fits perfectly and true to size. Fabric is soft and comfortable.",2024-11-11
+498,U056,Suresh Sharma,P003,Bluetooth Speaker Mini,Electronics,1799,5,Performance is smooth and responsive. Sound quality is crisp and clear. Customer service was helpful and replied quickly.,2024-06-08
+499,U056,Suresh Sharma,P023,History Illustrated,Books,899,4,"Support team solved my issue right away. Arrived on time, shipping was quick. Packaging was neat and secure.",2024-11-19
+500,U056,Suresh Sharma,P006,Gaming Mouse RGB,Electronics,999,5,"Sound quality is crisp and clear. Battery life is excellent, lasts all day.",2024-02-01
+501,U056,Suresh Sharma,P004,Power Bank 20000mAh,Electronics,1499,5,"Battery life is excellent, lasts all day. Performance is smooth and responsive. Arrived on time, shipping was quick.",2024-11-11
+502,U056,Suresh Sharma,P005,Budget Smartphone S1,Electronics,8999,4,Packaging was neat and secure.,2024-11-05
+503,U056,Suresh Sharma,P022,Self-Growth Guide,Books,399,4,"Support team solved my issue right away. Well packed, the box was in perfect condition.",2024-01-26
+504,U056,Suresh Sharma,P024,Cheap Reprint Classics,Books,199,3,"Mixed feelings, some things are good and some are not. Print quality is bad and the pages are loose.",2024-05-26
+505,U056,Suresh Sharma,P001,Wireless Earbuds Pro,Electronics,2499,4,Customer support was rude and never solved my issue.,2024-04-28
+506,U056,Suresh Sharma,P014,Air Fryer 4L,Home & Kitchen,5499,4,Support team solved my issue right away.,2024-02-17
+507,U056,Suresh Sharma,P020,Mystery Novel Collection,Books,549,4,Customer service was helpful and replied quickly. Great value for the price.,2024-10-20
+508,U056,Suresh Sharma,P010,Leather Wallet,Fashion,799,4,"Well packed, the box was in perfect condition. Color looks exactly like the photos. Customer service was helpful and replied quickly.",2024-01-16
+509,U057,Karthik Reddy,P009,Cotton Kurta Set,Fashion,1299,2,Delivery was very late and the tracking was useless. Color faded after the first wash.,2024-04-18
+510,U057,Karthik Reddy,P024,Cheap Reprint Classics,Books,199,3,"Print quality is bad and the pages are loose. Packaging was careless, the item came in a dented box. Average product, does the job.",2024-11-15
+511,U057,Karthik Reddy,P006,Gaming Mouse RGB,Electronics,999,4,"Support team solved my issue right away. Battery life is excellent, lasts all day.",2024-04-09
+512,U057,Karthik Reddy,P011,Fast-Fashion Hoodie,Fashion,999,1,"Size is wrong, the fit is very tight. Stopped working after a week, very poor quality.",2025-09-23
+513,U057,Karthik Reddy,P021,Python for Beginners,Books,449,5,Really good quality and well made. Packaging was neat and secure.,2024-12-25
+514,U057,Karthik Reddy,P023,History Illustrated,Books,899,4,"Print quality is sharp and the paper is good. Arrived on time, shipping was quick. Very affordable and worth every penny of the money.",2025-02-19
+515,U058,Meena Singh,P030,Budget Face Cream,Beauty,199,3,"The smell is strong and unpleasant. No visible results even after a month. Excellent quality, feels premium. It is okay, nothing special.",2025-12-11
+516,U058,Meena Singh,P025,Vitamin C Serum,Beauty,599,5,"Well packed, the box was in perfect condition. Smells lovely and fresh.",2025-04-19
+517,U058,Meena Singh,P024,Cheap Reprint Classics,Books,199,2,"Poor quality, it feels cheap and flimsy. The content is boring and poorly explained.",2025-01-23
+518,U058,Meena Singh,P028,Sunscreen SPF50,Beauty,449,4,Very affordable and worth every penny of the money.,2025-10-13
+519,U058,Meena Singh,P019,Data Science Handbook,Books,699,3,The content is boring and poorly explained. Decent but not amazing.,2024-07-19
+520,U058,Meena Singh,P026,Herbal Shampoo,Beauty,349,4,"Arrived on time, shipping was quick.",2024-12-18
+521,U058,Meena Singh,P027,Matte Lipstick Set,Beauty,799,4,"Arrived on time, shipping was quick.",2025-07-16
+522,U059,Divya Reddy,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Very durable and built to last. Very noisy while working. Excellent quality, feels premium. Works as described, neither good nor bad.",2025-02-07
+523,U059,Divya Reddy,P023,History Illustrated,Books,899,4,Packaging was neat and secure.,2025-11-17
+524,U059,Divya Reddy,P007,Classic Denim Jacket,Fashion,2299,5,"Fabric is soft and comfortable. Well packed, the box was in perfect condition. Arrived on time, shipping was quick.",2025-05-13
+525,U059,Divya Reddy,P011,Fast-Fashion Hoodie,Fashion,999,2,Overpriced for what you get.,2024-12-29
+526,U059,Divya Reddy,P012,Sports Cap,Fashion,399,4,"Customer service was helpful and replied quickly. Stopped working after a week, very poor quality. Color looks exactly like the photos.",2024-08-30
+527,U059,Divya Reddy,P014,Air Fryer 4L,Home & Kitchen,5499,4,Runs quietly. Customer service was helpful and replied quickly.,2025-06-23
+528,U059,Divya Reddy,P019,Data Science Handbook,Books,699,4,"Overpriced for what you get. Support team solved my issue right away. Arrived on time, shipping was quick.",2025-07-06
+529,U059,Divya Reddy,P009,Cotton Kurta Set,Fashion,1299,5,"Arrived on time, shipping was quick.",2024-10-23
+530,U059,Divya Reddy,P022,Self-Growth Guide,Books,399,3,"Delivery was fast and the item arrived early. The content is boring and poorly explained. It is fine, I expected a bit more.",2025-07-31
+531,U060,Aarav Reddy,P002,Smart Watch X2,Electronics,3999,4,Customer service was helpful and replied quickly. Sound quality is crisp and clear.,2025-09-22
+532,U060,Aarav Reddy,P012,Sports Cap,Fashion,399,3,"Customer support was rude and never solved my issue. Average product, does the job.",2025-01-13
+533,U060,Aarav Reddy,P019,Data Science Handbook,Books,699,4,Customer support was rude and never solved my issue.,2024-03-27
+534,U060,Aarav Reddy,P021,Python for Beginners,Books,449,3,"Mixed feelings, some things are good and some are not. Packaging was neat and secure. The story is engaging and well written.",2025-02-26
+535,U060,Aarav Reddy,P005,Budget Smartphone S1,Electronics,8999,3,"Performance is smooth and responsive. Works as described, neither good nor bad. Very affordable and worth every penny of the money.",2025-04-20
+536,U060,Aarav Reddy,P003,Bluetooth Speaker Mini,Electronics,1799,3,"No reply from customer service and the refund took forever. Mixed feelings, some things are good and some are not.",2025-03-21
+537,U060,Aarav Reddy,P007,Classic Denim Jacket,Fashion,2299,3,"Size is wrong, the fit is very tight. Fabric is soft and comfortable. Stopped working after a week, very poor quality. Decent but not amazing.",2024-04-09
+538,U060,Aarav Reddy,P020,Mystery Novel Collection,Books,549,3,Decent but not amazing. The content is boring and poorly explained. Customer service was helpful and replied quickly. The box was damaged and the packaging was poor.,2024-09-04
+539,U060,Aarav Reddy,P004,Power Bank 20000mAh,Electronics,1499,5,Customer service was helpful and replied quickly. Great value for the price. Packaging was neat and secure.,2024-08-12
+540,U060,Aarav Reddy,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Mixed feelings, some things are good and some are not. Great value for the price.",2024-05-02
+541,U061,Sneha Reddy,P012,Sports Cap,Fashion,399,4,Fits perfectly and true to size. Very affordable and worth every penny of the money. Packaging was neat and secure.,2025-12-09
+542,U061,Sneha Reddy,P005,Budget Smartphone S1,Electronics,8999,3,"Performance is smooth and responsive. Average product, does the job.",2024-09-28
+543,U061,Sneha Reddy,P021,Python for Beginners,Books,449,5,Support team solved my issue right away.,2025-03-17
+544,U061,Sneha Reddy,P022,Self-Growth Guide,Books,399,4,"Arrived on time, shipping was quick.",2024-04-15
+545,U061,Sneha Reddy,P023,History Illustrated,Books,899,5,"Arrived on time, shipping was quick. Print quality is sharp and the paper is good. Really good quality and well made.",2025-10-30
+546,U061,Sneha Reddy,P010,Leather Wallet,Fashion,799,4,"Well packed, the box was in perfect condition. Support team solved my issue right away. Color looks exactly like the photos.",2025-02-17
+547,U061,Sneha Reddy,P006,Gaming Mouse RGB,Electronics,999,3,"Battery drains very fast, terrible battery life. Delivery was very late and the tracking was useless. It is okay, nothing special.",2024-04-02
+548,U061,Sneha Reddy,P029,Hair Oil Natural,Beauty,299,2,Customer support was rude and never solved my issue.,2025-11-07
+549,U061,Sneha Reddy,P019,Data Science Handbook,Books,699,4,The story is engaging and well written. Packaging was neat and secure.,2025-10-09
+550,U061,Sneha Reddy,P011,Fast-Fashion Hoodie,Fashion,999,2,"No reply from customer service and the refund took forever. Poor quality, it feels cheap and flimsy. Color looks exactly like the photos.",2024-03-05
+551,U061,Sneha Reddy,P004,Power Bank 20000mAh,Electronics,1499,4,"Performance is smooth and responsive. Battery drains very fast, terrible battery life. Support team solved my issue right away.",2024-08-04
+552,U062,Aarav Das,P014,Air Fryer 4L,Home & Kitchen,5499,3,"Delivery was very late and the tracking was useless. It is fine, I expected a bit more.",2024-01-15
+553,U062,Aarav Das,P007,Classic Denim Jacket,Fashion,2299,3,"Average product, does the job. Color faded after the first wash.",2024-04-18
+554,U062,Aarav Das,P011,Fast-Fashion Hoodie,Fashion,999,2,"Size is wrong, the fit is very tight. Delivery was very late and the tracking was useless.",2025-11-25
+555,U062,Aarav Das,P021,Python for Beginners,Books,449,3,"It is fine, I expected a bit more. Well packed, the box was in perfect condition. Stopped working after a week, very poor quality.",2024-05-03
+556,U062,Aarav Das,P002,Smart Watch X2,Electronics,3999,3,Sound quality is crisp and clear. Performance is smooth and responsive. Decent but not amazing. Packaging was neat and secure.,2024-04-12
+557,U062,Aarav Das,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Too expensive, not worth the money.",2024-05-09
+558,U062,Aarav Das,P010,Leather Wallet,Fashion,799,4,Delivery was fast and the item arrived early. Support team solved my issue right away. Packaging was neat and secure.,2024-06-27
+559,U062,Aarav Das,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Very durable and built to last. Easy to clean and maintain. Customer service was helpful and replied quickly.,2024-04-07
+560,U062,Aarav Das,P005,Budget Smartphone S1,Electronics,8999,4,"Performance is smooth and responsive. Really good quality and well made. Well packed, the box was in perfect condition.",2024-06-01
+561,U062,Aarav Das,P008,Running Shoes Air,Fashion,3499,4,Packaging was neat and secure.,2025-04-09
+562,U062,Aarav Das,P009,Cotton Kurta Set,Fashion,1299,3,"Packaging was careless, the item came in a dented box. Average product, does the job. Shipping took two weeks, really disappointed with the delivery.",2024-01-30
+563,U063,Suresh Nair,P005,Budget Smartphone S1,Electronics,8999,2,"Packaging was careless, the item came in a dented box.",2025-01-19
+564,U063,Suresh Nair,P003,Bluetooth Speaker Mini,Electronics,1799,2,"Stopped working after a week, very poor quality.",2025-03-22
+565,U063,Suresh Nair,P011,Fast-Fashion Hoodie,Fashion,999,2,"Size is wrong, the fit is very tight. Overpriced for what you get. The box was damaged and the packaging was poor.",2024-07-17
+566,U063,Suresh Nair,P024,Cheap Reprint Classics,Books,199,3,"Well packed, the box was in perfect condition. Overpriced for what you get. It is fine, I expected a bit more.",2025-04-14
+567,U063,Suresh Nair,P023,History Illustrated,Books,899,4,Support team solved my issue right away.,2025-05-15
+568,U063,Suresh Nair,P013,Non-Stick Cookware Set,Home & Kitchen,2799,5,"Excellent quality, feels premium. Packaging was neat and secure. Great value for the price.",2025-03-14
+569,U063,Suresh Nair,P015,Electric Kettle,Home & Kitchen,1199,5,Easy to clean and maintain.,2025-05-31
+570,U064,Divya Das,P014,Air Fryer 4L,Home & Kitchen,5499,4,Easy to clean and maintain. Packaging was neat and secure. Runs quietly.,2025-12-10
+571,U064,Divya Das,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Performance is smooth and responsive. Average product, does the job.",2025-08-20
+572,U064,Divya Das,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Runs quietly. Not durable, it broke within a month. Hard to clean and the coating peeled off.",2025-01-14
+573,U064,Divya Das,P008,Running Shoes Air,Fashion,3499,4,Really good quality and well made. Fabric is soft and comfortable. Fits perfectly and true to size.,2025-07-09
+574,U064,Divya Das,P024,Cheap Reprint Classics,Books,199,3,"Too expensive, not worth the money. Excellent quality, feels premium. Mixed feelings, some things are good and some are not.",2024-04-23
+575,U064,Divya Das,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Works as described, neither good nor bad. Very noisy while working.",2025-07-06
+576,U064,Divya Das,P006,Gaming Mouse RGB,Electronics,999,4,"Sound quality is crisp and clear. Great value for the price. Arrived on time, shipping was quick.",2024-09-30
+577,U064,Divya Das,P009,Cotton Kurta Set,Fashion,1299,3,"It is okay, nothing special. Stopped working after a week, very poor quality.",2025-12-10
+578,U064,Divya Das,P007,Classic Denim Jacket,Fashion,2299,5,"Packaging was neat and secure. Arrived on time, shipping was quick.",2024-07-02
+579,U064,Divya Das,P002,Smart Watch X2,Electronics,3999,4,"Sound quality is crisp and clear. Battery life is excellent, lasts all day.",2024-01-24
+580,U065,Manoj Kumar,P022,Self-Growth Guide,Books,399,4,"The story is engaging and well written. Very affordable and worth every penny of the money. Excellent quality, feels premium.",2024-08-25
+581,U065,Manoj Kumar,P024,Cheap Reprint Classics,Books,199,2,Overpriced for what you get. Print quality is sharp and the paper is good.,2024-08-20
+582,U065,Manoj Kumar,P008,Running Shoes Air,Fashion,3499,5,Great value for the price. Fits perfectly and true to size. Customer service was helpful and replied quickly.,2024-06-19
+583,U065,Manoj Kumar,P001,Wireless Earbuds Pro,Electronics,2499,4,"Great value for the price. Well packed, the box was in perfect condition.",2024-09-23
+584,U065,Manoj Kumar,P004,Power Bank 20000mAh,Electronics,1499,5,Great value for the price. Support team solved my issue right away. Performance is smooth and responsive.,2025-04-04
+585,U065,Manoj Kumar,P027,Matte Lipstick Set,Beauty,799,4,"Skin feels soft and glowing, no irritation. No visible results even after a month. Smells lovely and fresh.",2025-07-13
+586,U066,Suresh Raj,P010,Leather Wallet,Fashion,799,5,Fabric is soft and comfortable.,2024-11-11
+587,U066,Suresh Raj,P007,Classic Denim Jacket,Fashion,2299,4,Really good quality and well made.,2025-10-18
+588,U066,Suresh Raj,P003,Bluetooth Speaker Mini,Electronics,1799,4,"Performance is laggy and it keeps hanging. Battery life is excellent, lasts all day. Sound quality is crisp and clear.",2024-03-26
+589,U066,Suresh Raj,P026,Herbal Shampoo,Beauty,349,3,"Smells lovely and fresh. Very affordable and worth every penny of the money. It is okay, nothing special.",2025-03-13
+590,U066,Suresh Raj,P004,Power Bank 20000mAh,Electronics,1499,5,"Sound quality is crisp and clear. Performance is smooth and responsive. Excellent quality, feels premium.",2025-03-30
+591,U066,Suresh Raj,P002,Smart Watch X2,Electronics,3999,3,"The box was damaged and the packaging was poor. Average product, does the job. Support team solved my issue right away.",2025-06-21
+592,U066,Suresh Raj,P012,Sports Cap,Fashion,399,5,Very affordable and worth every penny of the money. Packaging was neat and secure. Fabric is soft and comfortable.,2025-12-28
+593,U066,Suresh Raj,P023,History Illustrated,Books,899,3,"Delivery was very late and the tracking was useless. Works as described, neither good nor bad.",2025-04-19
+594,U066,Suresh Raj,P029,Hair Oil Natural,Beauty,299,3,"Packaging was careless, the item came in a dented box. Skin feels soft and glowing, no irritation. Mixed feelings, some things are good and some are not.",2025-10-13
+595,U066,Suresh Raj,P006,Gaming Mouse RGB,Electronics,999,4,"Battery life is excellent, lasts all day. Support team solved my issue right away. Poor quality, it feels cheap and flimsy.",2024-03-09
+596,U066,Suresh Raj,P009,Cotton Kurta Set,Fashion,1299,4,Customer service was helpful and replied quickly.,2025-08-12
+597,U067,Rahul Sharma,P004,Power Bank 20000mAh,Electronics,1499,3,"Mixed feelings, some things are good and some are not. Customer service was helpful and replied quickly.",2024-12-30
+598,U067,Rahul Sharma,P008,Running Shoes Air,Fashion,3499,5,Very affordable and worth every penny of the money. Support team solved my issue right away. Color looks exactly like the photos.,2024-04-06
+599,U067,Rahul Sharma,P020,Mystery Novel Collection,Books,549,4,"Poor quality, it feels cheap and flimsy. Great value for the price.",2025-01-16
+600,U067,Rahul Sharma,P014,Air Fryer 4L,Home & Kitchen,5499,5,"Packaging was neat and secure. Excellent quality, feels premium. Easy to clean and maintain.",2024-07-11
+601,U067,Rahul Sharma,P017,LED Study Lamp,Home & Kitchen,699,5,Very durable and built to last. Packaging was neat and secure. Runs quietly.,2025-09-03
+602,U067,Rahul Sharma,P007,Classic Denim Jacket,Fashion,2299,5,Fabric is soft and comfortable.,2024-05-13
+603,U067,Rahul Sharma,P005,Budget Smartphone S1,Electronics,8999,2,Packaging was neat and secure.,2024-02-13
+604,U068,Nisha Raj,P025,Vitamin C Serum,Beauty,599,3,"Mixed feelings, some things are good and some are not. Poor quality, it feels cheap and flimsy.",2024-04-08
+605,U068,Nisha Raj,P006,Gaming Mouse RGB,Electronics,999,5,"Battery life is excellent, lasts all day. Great value for the price. Packaging was neat and secure.",2024-10-11
+606,U068,Nisha Raj,P017,LED Study Lamp,Home & Kitchen,699,4,Great value for the price. Hard to clean and the coating peeled off.,2024-07-15
+607,U068,Nisha Raj,P007,Classic Denim Jacket,Fashion,2299,3,"It is fine, I expected a bit more. Size is wrong, the fit is very tight.",2024-04-19
+608,U068,Nisha Raj,P004,Power Bank 20000mAh,Electronics,1499,4,Packaging was neat and secure. Really good quality and well made.,2024-04-25
+609,U068,Nisha Raj,P027,Matte Lipstick Set,Beauty,799,4,"Well packed, the box was in perfect condition. Really good quality and well made.",2024-12-01
+610,U068,Nisha Raj,P003,Bluetooth Speaker Mini,Electronics,1799,4,"Sound is muffled and the audio keeps cutting out. Packaging was careless, the item came in a dented box.",2025-02-21
+611,U068,Nisha Raj,P002,Smart Watch X2,Electronics,3999,5,Performance is smooth and responsive. Support team solved my issue right away.,2024-04-17
+612,U069,Rohit Singh,P009,Cotton Kurta Set,Fashion,1299,4,Really good quality and well made. Support team solved my issue right away.,2024-07-22
+613,U069,Rohit Singh,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"No reply from customer service and the refund took forever. Hard to clean and the coating peeled off. Not durable, it broke within a month.",2025-08-18
+614,U069,Rohit Singh,P007,Classic Denim Jacket,Fashion,2299,5,"Well packed, the box was in perfect condition.",2025-04-10
+615,U069,Rohit Singh,P008,Running Shoes Air,Fashion,3499,5,Color looks exactly like the photos.,2024-02-24
+616,U069,Rohit Singh,P011,Fast-Fashion Hoodie,Fashion,999,3,"Overpriced for what you get. Average product, does the job. Color faded after the first wash.",2025-11-26
+617,U069,Rohit Singh,P010,Leather Wallet,Fashion,799,4,"Arrived on time, shipping was quick. Fabric feels rough and the stitching came apart.",2025-07-09
+618,U070,Rohit Das,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Customer service was helpful and replied quickly. Battery life is excellent, lasts all day. Packaging was neat and secure. Mixed feelings, some things are good and some are not.",2024-06-30
+619,U070,Rohit Das,P023,History Illustrated,Books,899,3,"Support team solved my issue right away. It is fine, I expected a bit more.",2025-07-29
+620,U070,Rohit Das,P030,Budget Face Cream,Beauty,199,3,"Mixed feelings, some things are good and some are not. Skin feels soft and glowing, no irritation. The smell is strong and unpleasant. Too expensive, not worth the money.",2025-09-23
+621,U070,Rohit Das,P019,Data Science Handbook,Books,699,5,"Great value for the price. Arrived on time, shipping was quick.",2024-12-31
+622,U070,Rohit Das,P024,Cheap Reprint Classics,Books,199,3,"It is okay, nothing special. Print quality is sharp and the paper is good.",2025-12-05
+623,U070,Rohit Das,P022,Self-Growth Guide,Books,399,4,Support team solved my issue right away. Really good quality and well made. Very affordable and worth every penny of the money.,2025-03-08
+624,U070,Rohit Das,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"It is fine, I expected a bit more. Packaging was careless, the item came in a dented box. Very durable and built to last.",2024-04-10
+625,U070,Rohit Das,P015,Electric Kettle,Home & Kitchen,1199,3,"Excellent quality, feels premium. It is fine, I expected a bit more.",2025-10-12
+626,U070,Rohit Das,P020,Mystery Novel Collection,Books,549,4,"The story is engaging and well written. Arrived on time, shipping was quick. Support team solved my issue right away.",2024-08-19
+627,U071,Karthik Reddy,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Overpriced for what you get. Delivery was very late and the tracking was useless. Mixed feelings, some things are good and some are not. Not durable, it broke within a month.",2025-11-18
+628,U071,Karthik Reddy,P019,Data Science Handbook,Books,699,5,Customer service was helpful and replied quickly. The story is engaging and well written.,2025-09-21
+629,U071,Karthik Reddy,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Very durable and built to last. Easy to clean and maintain.,2025-03-21
+630,U071,Karthik Reddy,P014,Air Fryer 4L,Home & Kitchen,5499,4,Very affordable and worth every penny of the money. Runs quietly. Very durable and built to last.,2024-10-20
+631,U071,Karthik Reddy,P023,History Illustrated,Books,899,4,"The story is engaging and well written. Arrived on time, shipping was quick.",2025-03-22
+632,U071,Karthik Reddy,P024,Cheap Reprint Classics,Books,199,3,"No reply from customer service and the refund took forever. The box was damaged and the packaging was poor. It is fine, I expected a bit more. Delivery was very late and the tracking was useless.",2024-10-11
+633,U071,Karthik Reddy,P015,Electric Kettle,Home & Kitchen,1199,5,"Packaging was neat and secure. Excellent quality, feels premium. Very durable and built to last.",2025-01-07
+634,U072,Nisha Raj,P028,Sunscreen SPF50,Beauty,449,5,Smells lovely and fresh. Saw visible results in two weeks.,2024-11-16
+635,U072,Nisha Raj,P007,Classic Denim Jacket,Fashion,2299,4,Support team solved my issue right away. Fabric is soft and comfortable.,2025-03-26
+636,U072,Nisha Raj,P015,Electric Kettle,Home & Kitchen,1199,4,"Poor quality, it feels cheap and flimsy. Very affordable and worth every penny of the money.",2025-03-09
+637,U072,Nisha Raj,P029,Hair Oil Natural,Beauty,299,5,Delivery was fast and the item arrived early.,2025-09-12
+638,U072,Nisha Raj,P011,Fast-Fashion Hoodie,Fashion,999,2,"Size is wrong, the fit is very tight. Fabric feels rough and the stitching came apart.",2025-01-28
+639,U072,Nisha Raj,P001,Wireless Earbuds Pro,Electronics,2499,5,"Well packed, the box was in perfect condition. Sound quality is crisp and clear.",2024-09-18
+640,U073,Manoj Sharma,P002,Smart Watch X2,Electronics,3999,4,Sound quality is crisp and clear. Performance is laggy and it keeps hanging.,2025-05-18
+641,U073,Manoj Sharma,P020,Mystery Novel Collection,Books,549,3,"Mixed feelings, some things are good and some are not. No reply from customer service and the refund took forever. The story is engaging and well written.",2024-12-26
+642,U073,Manoj Sharma,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Average product, does the job. Very affordable and worth every penny of the money. Delivery was fast and the item arrived early.",2025-10-07
+643,U073,Manoj Sharma,P005,Budget Smartphone S1,Electronics,8999,3,Sound is muffled and the audio keeps cutting out. Decent but not amazing.,2025-10-26
+644,U073,Manoj Sharma,P024,Cheap Reprint Classics,Books,199,1,"Packaging was careless, the item came in a dented box. The content is boring and poorly explained.",2024-05-16
+645,U073,Manoj Sharma,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Decent but not amazing. Poor quality, it feels cheap and flimsy. Shipping took two weeks, really disappointed with the delivery. Sound quality is crisp and clear.",2025-01-21
+646,U073,Manoj Sharma,P015,Electric Kettle,Home & Kitchen,1199,4,Overpriced for what you get. Delivery was very late and the tracking was useless.,2025-09-06
+647,U073,Manoj Sharma,P001,Wireless Earbuds Pro,Electronics,2499,4,"Performance is smooth and responsive. Shipping took two weeks, really disappointed with the delivery. Well packed, the box was in perfect condition.",2025-04-09
+648,U073,Manoj Sharma,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Stopped working after a week, very poor quality.",2025-03-17
+649,U073,Manoj Sharma,P019,Data Science Handbook,Books,699,4,Overpriced for what you get.,2024-05-29
+650,U073,Manoj Sharma,P017,LED Study Lamp,Home & Kitchen,699,5,"Runs quietly. Arrived on time, shipping was quick.",2024-09-11
+651,U073,Manoj Sharma,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"The box was damaged and the packaging was poor. Works as described, neither good nor bad. Delivery was fast and the item arrived early.",2025-09-03
+652,U074,Swathi Singh,P007,Classic Denim Jacket,Fashion,2299,3,"It is fine, I expected a bit more. Fabric is soft and comfortable. Size is wrong, the fit is very tight.",2025-01-25
+653,U074,Swathi Singh,P006,Gaming Mouse RGB,Electronics,999,4,Sound quality is crisp and clear. Packaging was neat and secure.,2024-04-01
+654,U074,Swathi Singh,P009,Cotton Kurta Set,Fashion,1299,4,"Size is wrong, the fit is very tight. Really good quality and well made. Very affordable and worth every penny of the money.",2024-10-14
+655,U074,Swathi Singh,P026,Herbal Shampoo,Beauty,349,3,"Saw visible results in two weeks. Arrived on time, shipping was quick. Well packed, the box was in perfect condition. It is okay, nothing special.",2024-06-03
+656,U074,Swathi Singh,P030,Budget Face Cream,Beauty,199,4,Saw visible results in two weeks.,2025-05-21
+657,U074,Swathi Singh,P005,Budget Smartphone S1,Electronics,8999,4,"Battery life is excellent, lasts all day.",2024-05-31
+658,U074,Swathi Singh,P002,Smart Watch X2,Electronics,3999,4,"Customer service was helpful and replied quickly. Performance is smooth and responsive. Battery life is excellent, lasts all day.",2024-06-21
+659,U074,Swathi Singh,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Customer support was rude and never solved my issue. Works as described, neither good nor bad.",2024-12-02
+660,U075,Naveen Raj,P008,Running Shoes Air,Fashion,3499,4,"Color faded after the first wash. Excellent quality, feels premium. Fits perfectly and true to size.",2025-12-25
+661,U075,Naveen Raj,P006,Gaming Mouse RGB,Electronics,999,4,"Stopped working after a week, very poor quality.",2025-08-05
+662,U075,Naveen Raj,P005,Budget Smartphone S1,Electronics,8999,2,"Packaging was careless, the item came in a dented box. Customer support was rude and never solved my issue. Sound is muffled and the audio keeps cutting out.",2024-02-26
+663,U075,Naveen Raj,P002,Smart Watch X2,Electronics,3999,4,"Very affordable and worth every penny of the money. Arrived on time, shipping was quick.",2025-02-16
+664,U075,Naveen Raj,P026,Herbal Shampoo,Beauty,349,3,Decent but not amazing. It caused skin irritation and breakouts.,2025-09-09
+665,U075,Naveen Raj,P010,Leather Wallet,Fashion,799,4,"Well packed, the box was in perfect condition. Fabric is soft and comfortable.",2025-09-06
+666,U076,Kavya Raj,P030,Budget Face Cream,Beauty,199,3,Overpriced for what you get. Decent but not amazing.,2025-11-23
+667,U076,Kavya Raj,P020,Mystery Novel Collection,Books,549,4,The content is boring and poorly explained.,2024-06-01
+668,U076,Kavya Raj,P024,Cheap Reprint Classics,Books,199,2,Delivery was very late and the tracking was useless. No reply from customer service and the refund took forever. Print quality is sharp and the paper is good.,2024-10-29
+669,U076,Kavya Raj,P015,Electric Kettle,Home & Kitchen,1199,2,Very noisy while working.,2024-01-17
+670,U076,Kavya Raj,P028,Sunscreen SPF50,Beauty,449,4,The smell is strong and unpleasant.,2024-02-16
+671,U076,Kavya Raj,P012,Sports Cap,Fashion,399,3,"Customer service was helpful and replied quickly. Too expensive, not worth the money. The box was damaged and the packaging was poor. It is fine, I expected a bit more.",2025-04-05
+672,U076,Kavya Raj,P001,Wireless Earbuds Pro,Electronics,2499,3,"Arrived on time, shipping was quick. Mixed feelings, some things are good and some are not.",2025-02-08
+673,U076,Kavya Raj,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Not durable, it broke within a month. Very noisy while working.",2025-05-13
+674,U077,Rahul Iyer,P022,Self-Growth Guide,Books,399,2,Print quality is sharp and the paper is good.,2025-12-13
+675,U077,Rahul Iyer,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"Poor quality, it feels cheap and flimsy. Delivery was fast and the item arrived early. Great value for the price. Decent but not amazing.",2025-10-03
+676,U077,Rahul Iyer,P010,Leather Wallet,Fashion,799,4,Really good quality and well made. Packaging was neat and secure. Very affordable and worth every penny of the money.,2025-04-05
+677,U077,Rahul Iyer,P030,Budget Face Cream,Beauty,199,3,"Support team solved my issue right away. Delivery was fast and the item arrived early. It is fine, I expected a bit more. Stopped working after a week, very poor quality.",2025-09-02
+678,U077,Rahul Iyer,P003,Bluetooth Speaker Mini,Electronics,1799,2,"Performance is laggy and it keeps hanging. Shipping took two weeks, really disappointed with the delivery.",2025-10-25
+679,U077,Rahul Iyer,P001,Wireless Earbuds Pro,Electronics,2499,4,Really good quality and well made. No reply from customer service and the refund took forever.,2024-12-18
+680,U078,Rahul Reddy,P017,LED Study Lamp,Home & Kitchen,699,5,Really good quality and well made. Great value for the price. Very durable and built to last.,2024-06-14
+681,U078,Rahul Reddy,P007,Classic Denim Jacket,Fashion,2299,2,"Poor quality, it feels cheap and flimsy.",2024-11-06
+682,U078,Rahul Reddy,P015,Electric Kettle,Home & Kitchen,1199,5,"Great value for the price. Well packed, the box was in perfect condition.",2024-09-24
+683,U078,Rahul Reddy,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Mixed feelings, some things are good and some are not. Customer support was rude and never solved my issue. Too expensive, not worth the money.",2024-08-17
+684,U078,Rahul Reddy,P024,Cheap Reprint Classics,Books,199,3,"It is fine, I expected a bit more. Shipping took two weeks, really disappointed with the delivery. The content is boring and poorly explained. Print quality is bad and the pages are loose.",2025-09-10
+685,U078,Rahul Reddy,P006,Gaming Mouse RGB,Electronics,999,3,"Average product, does the job. No reply from customer service and the refund took forever.",2025-01-05
+686,U078,Rahul Reddy,P021,Python for Beginners,Books,449,4,"Arrived on time, shipping was quick.",2024-12-08
+687,U078,Rahul Reddy,P029,Hair Oil Natural,Beauty,299,3,"Support team solved my issue right away. Mixed feelings, some things are good and some are not. Saw visible results in two weeks.",2025-04-30
+688,U078,Rahul Reddy,P020,Mystery Novel Collection,Books,549,4,"Really good quality and well made. Packaging was careless, the item came in a dented box. The content is boring and poorly explained.",2024-06-04
+689,U078,Rahul Reddy,P027,Matte Lipstick Set,Beauty,799,2,"Packaging was careless, the item came in a dented box.",2025-06-13
+690,U078,Rahul Reddy,P030,Budget Face Cream,Beauty,199,3,"Delivery was very late and the tracking was useless. Poor quality, it feels cheap and flimsy. Mixed feelings, some things are good and some are not.",2024-06-17
+691,U078,Rahul Reddy,P022,Self-Growth Guide,Books,399,5,The story is engaging and well written. Print quality is sharp and the paper is good.,2025-03-05
+692,U079,Lakshmi Kumar,P012,Sports Cap,Fashion,399,3,"Works as described, neither good nor bad. Color faded after the first wash.",2025-10-21
+693,U079,Lakshmi Kumar,P006,Gaming Mouse RGB,Electronics,999,3,"No reply from customer service and the refund took forever. Works as described, neither good nor bad. The box was damaged and the packaging was poor. Arrived on time, shipping was quick.",2024-05-09
+694,U079,Lakshmi Kumar,P026,Herbal Shampoo,Beauty,349,4,"Arrived on time, shipping was quick.",2025-06-01
+695,U079,Lakshmi Kumar,P023,History Illustrated,Books,899,3,"Excellent quality, feels premium. Works as described, neither good nor bad.",2025-10-28
+696,U079,Lakshmi Kumar,P030,Budget Face Cream,Beauty,199,3,"Excellent quality, feels premium. Overpriced for what you get. Decent but not amazing. Smells lovely and fresh.",2025-08-18
+697,U079,Lakshmi Kumar,P007,Classic Denim Jacket,Fashion,2299,4,Delivery was fast and the item arrived early.,2024-03-24
+698,U079,Lakshmi Kumar,P014,Air Fryer 4L,Home & Kitchen,5499,3,"Not durable, it broke within a month. Works as described, neither good nor bad.",2025-04-01
+699,U079,Lakshmi Kumar,P020,Mystery Novel Collection,Books,549,2,"The content is boring and poorly explained. Stopped working after a week, very poor quality.",2025-12-06
+700,U079,Lakshmi Kumar,P025,Vitamin C Serum,Beauty,599,3,"Packaging was neat and secure. It caused skin irritation and breakouts. No visible results even after a month. It is okay, nothing special.",2024-05-12
+701,U079,Lakshmi Kumar,P008,Running Shoes Air,Fashion,3499,4,Fits perfectly and true to size.,2024-06-05
+702,U079,Lakshmi Kumar,P010,Leather Wallet,Fashion,799,4,Very affordable and worth every penny of the money.,2025-05-12
+703,U080,Priya Reddy,P026,Herbal Shampoo,Beauty,349,5,Smells lovely and fresh.,2024-03-10
+704,U080,Priya Reddy,P018,Vacuum Flask 1L,Home & Kitchen,899,2,Very noisy while working. Hard to clean and the coating peeled off.,2024-12-11
+705,U080,Priya Reddy,P027,Matte Lipstick Set,Beauty,799,4,Smells lovely and fresh.,2024-11-29
+706,U080,Priya Reddy,P010,Leather Wallet,Fashion,799,4,Color looks exactly like the photos. Fits perfectly and true to size. Great value for the price.,2024-02-16
+707,U080,Priya Reddy,P022,Self-Growth Guide,Books,399,4,Print quality is sharp and the paper is good. Delivery was fast and the item arrived early. Customer service was helpful and replied quickly.,2025-07-08
+708,U080,Priya Reddy,P030,Budget Face Cream,Beauty,199,4,Really good quality and well made.,2024-10-08
+709,U080,Priya Reddy,P005,Budget Smartphone S1,Electronics,8999,2,Performance is laggy and it keeps hanging.,2025-08-26
+710,U080,Priya Reddy,P009,Cotton Kurta Set,Fashion,1299,4,"Arrived on time, shipping was quick. Fabric is soft and comfortable.",2024-07-03
+711,U080,Priya Reddy,P029,Hair Oil Natural,Beauty,299,3,"Well packed, the box was in perfect condition. No visible results even after a month. Works as described, neither good nor bad.",2024-07-06
+712,U080,Priya Reddy,P007,Classic Denim Jacket,Fashion,2299,4,Support team solved my issue right away.,2025-12-31
+713,U080,Priya Reddy,P006,Gaming Mouse RGB,Electronics,999,4,"Excellent quality, feels premium.",2024-05-03
+714,U080,Priya Reddy,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"Well packed, the box was in perfect condition. It is okay, nothing special. Overpriced for what you get.",2025-05-31
+715,U081,Kavya Nair,P029,Hair Oil Natural,Beauty,299,3,"Great value for the price. No visible results even after a month. It is fine, I expected a bit more. Customer support was rude and never solved my issue.",2025-07-22
+716,U081,Kavya Nair,P030,Budget Face Cream,Beauty,199,2,"Smells lovely and fresh. No reply from customer service and the refund took forever. Poor quality, it feels cheap and flimsy.",2024-09-08
+717,U081,Kavya Nair,P001,Wireless Earbuds Pro,Electronics,2499,4,Sound quality is crisp and clear. Very affordable and worth every penny of the money.,2025-09-04
+718,U081,Kavya Nair,P004,Power Bank 20000mAh,Electronics,1499,4,Packaging was neat and secure. Very affordable and worth every penny of the money. Delivery was very late and the tracking was useless.,2025-06-30
+719,U081,Kavya Nair,P017,LED Study Lamp,Home & Kitchen,699,5,Support team solved my issue right away. Easy to clean and maintain.,2025-11-29
+720,U081,Kavya Nair,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Very durable and built to last. Delivery was fast and the item arrived early. Very noisy while working.,2025-04-15
+721,U081,Kavya Nair,P015,Electric Kettle,Home & Kitchen,1199,4,Packaging was neat and secure. Hard to clean and the coating peeled off. Very durable and built to last.,2025-02-06
+722,U081,Kavya Nair,P028,Sunscreen SPF50,Beauty,449,3,"Average product, does the job. It caused skin irritation and breakouts. Really good quality and well made. Packaging was careless, the item came in a dented box.",2025-01-20
+723,U081,Kavya Nair,P020,Mystery Novel Collection,Books,549,4,"Well packed, the box was in perfect condition. Delivery was fast and the item arrived early.",2025-12-27
+724,U081,Kavya Nair,P010,Leather Wallet,Fashion,799,3,"Works as described, neither good nor bad. Delivery was fast and the item arrived early. Very affordable and worth every penny of the money.",2025-05-20
+725,U082,Naveen Menon,P026,Herbal Shampoo,Beauty,349,4,Great value for the price.,2024-06-28
+726,U082,Naveen Menon,P009,Cotton Kurta Set,Fashion,1299,3,"Customer service was helpful and replied quickly. Mixed feelings, some things are good and some are not.",2025-08-06
+727,U082,Naveen Menon,P019,Data Science Handbook,Books,699,3,"The story is engaging and well written. It is okay, nothing special. Arrived on time, shipping was quick. Great value for the price.",2025-10-18
+728,U082,Naveen Menon,P010,Leather Wallet,Fashion,799,5,Color looks exactly like the photos. Great value for the price. Delivery was very late and the tracking was useless.,2025-03-06
+729,U082,Naveen Menon,P030,Budget Face Cream,Beauty,199,3,"It is okay, nothing special. Great value for the price.",2024-09-12
+730,U082,Naveen Menon,P014,Air Fryer 4L,Home & Kitchen,5499,4,Very durable and built to last. Easy to clean and maintain. Very affordable and worth every penny of the money.,2024-01-25
+731,U082,Naveen Menon,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Very noisy while working. Easy to clean and maintain. Mixed feelings, some things are good and some are not. Shipping took two weeks, really disappointed with the delivery.",2025-09-06
+732,U082,Naveen Menon,P004,Power Bank 20000mAh,Electronics,1499,4,Performance is smooth and responsive.,2024-05-10
+733,U082,Naveen Menon,P005,Budget Smartphone S1,Electronics,8999,2,Sound is muffled and the audio keeps cutting out. Delivery was very late and the tracking was useless.,2024-10-28
+734,U082,Naveen Menon,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"The box was damaged and the packaging was poor. Very affordable and worth every penny of the money. Average product, does the job.",2025-04-20
+735,U082,Naveen Menon,P007,Classic Denim Jacket,Fashion,2299,5,Very affordable and worth every penny of the money.,2025-08-30
+736,U083,Lakshmi Pillai,P017,LED Study Lamp,Home & Kitchen,699,4,Very affordable and worth every penny of the money.,2024-02-15
+737,U083,Lakshmi Pillai,P023,History Illustrated,Books,899,4,Print quality is sharp and the paper is good. Packaging was neat and secure. The story is engaging and well written.,2025-08-20
+738,U083,Lakshmi Pillai,P004,Power Bank 20000mAh,Electronics,1499,3,"Delivery was fast and the item arrived early. Mixed feelings, some things are good and some are not. Poor quality, it feels cheap and flimsy. Too expensive, not worth the money.",2025-06-03
+739,U083,Lakshmi Pillai,P022,Self-Growth Guide,Books,399,3,"Print quality is bad and the pages are loose. Average product, does the job. No reply from customer service and the refund took forever.",2025-12-10
+740,U083,Lakshmi Pillai,P007,Classic Denim Jacket,Fashion,2299,3,"Decent but not amazing. Poor quality, it feels cheap and flimsy. Delivery was fast and the item arrived early.",2024-02-13
+741,U083,Lakshmi Pillai,P027,Matte Lipstick Set,Beauty,799,4,Smells lovely and fresh.,2025-01-19
+742,U083,Lakshmi Pillai,P019,Data Science Handbook,Books,699,4,"Arrived on time, shipping was quick. Support team solved my issue right away.",2024-03-16
+743,U084,Priya Kumar,P007,Classic Denim Jacket,Fashion,2299,5,Really good quality and well made. Packaging was neat and secure. Fabric is soft and comfortable.,2024-12-13
+744,U084,Priya Kumar,P010,Leather Wallet,Fashion,799,4,Really good quality and well made. Great value for the price.,2024-04-23
+745,U084,Priya Kumar,P028,Sunscreen SPF50,Beauty,449,5,Packaging was neat and secure. Delivery was fast and the item arrived early. Saw visible results in two weeks.,2025-03-20
+746,U084,Priya Kumar,P009,Cotton Kurta Set,Fashion,1299,4,"Really good quality and well made. Arrived on time, shipping was quick. Support team solved my issue right away.",2025-03-15
+747,U084,Priya Kumar,P025,Vitamin C Serum,Beauty,599,4,Packaging was neat and secure.,2025-05-15
+748,U084,Priya Kumar,P006,Gaming Mouse RGB,Electronics,999,2,"Battery drains very fast, terrible battery life. Stopped working after a week, very poor quality. No reply from customer service and the refund took forever.",2025-02-01
+749,U084,Priya Kumar,P012,Sports Cap,Fashion,399,3,"Shipping took two weeks, really disappointed with the delivery. Packaging was careless, the item came in a dented box. Fabric is soft and comfortable. It is fine, I expected a bit more.",2025-08-20
+750,U084,Priya Kumar,P005,Budget Smartphone S1,Electronics,8999,2,"Packaging was careless, the item came in a dented box. Performance is laggy and it keeps hanging.",2025-01-18
+751,U085,Meena Singh,P021,Python for Beginners,Books,449,4,Print quality is sharp and the paper is good. Really good quality and well made.,2025-02-22
+752,U085,Meena Singh,P011,Fast-Fashion Hoodie,Fashion,999,2,"Size is wrong, the fit is very tight.",2025-10-22
+753,U085,Meena Singh,P024,Cheap Reprint Classics,Books,199,2,"Arrived on time, shipping was quick.",2024-10-10
+754,U085,Meena Singh,P002,Smart Watch X2,Electronics,3999,3,"Mixed feelings, some things are good and some are not. Really good quality and well made. Battery drains very fast, terrible battery life.",2024-07-24
+755,U085,Meena Singh,P020,Mystery Novel Collection,Books,549,5,"Arrived on time, shipping was quick. Very affordable and worth every penny of the money.",2025-07-10
+756,U085,Meena Singh,P029,Hair Oil Natural,Beauty,299,4,"Delivery was fast and the item arrived early. Poor quality, it feels cheap and flimsy. Skin feels soft and glowing, no irritation.",2025-08-16
+757,U085,Meena Singh,P018,Vacuum Flask 1L,Home & Kitchen,899,1,"Very noisy while working. Too expensive, not worth the money. Shipping took two weeks, really disappointed with the delivery.",2025-04-24
+758,U085,Meena Singh,P025,Vitamin C Serum,Beauty,599,4,"Too expensive, not worth the money. Customer support was rude and never solved my issue.",2024-01-31
+759,U085,Meena Singh,P019,Data Science Handbook,Books,699,4,Really good quality and well made. The story is engaging and well written.,2024-08-18
+760,U085,Meena Singh,P022,Self-Growth Guide,Books,399,3,"Packaging was careless, the item came in a dented box. Decent but not amazing.",2024-02-02
+761,U086,Arjun Pillai,P010,Leather Wallet,Fashion,799,4,"Customer service was helpful and replied quickly. Arrived on time, shipping was quick. Packaging was neat and secure.",2025-04-07
+762,U086,Arjun Pillai,P004,Power Bank 20000mAh,Electronics,1499,4,"Excellent quality, feels premium. Well packed, the box was in perfect condition.",2025-01-30
+763,U086,Arjun Pillai,P025,Vitamin C Serum,Beauty,599,5,Very affordable and worth every penny of the money. Delivery was fast and the item arrived early.,2025-02-24
+764,U086,Arjun Pillai,P019,Data Science Handbook,Books,699,5,Print quality is sharp and the paper is good.,2024-07-30
+765,U086,Arjun Pillai,P029,Hair Oil Natural,Beauty,299,3,"Decent but not amazing. Stopped working after a week, very poor quality. Customer service was helpful and replied quickly.",2025-08-11
+766,U086,Arjun Pillai,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Stopped working after a week, very poor quality. Customer service was helpful and replied quickly. Too expensive, not worth the money. Works as described, neither good nor bad.",2025-02-12
+767,U086,Arjun Pillai,P027,Matte Lipstick Set,Beauty,799,4,Smells lovely and fresh.,2025-09-19
+768,U086,Arjun Pillai,P018,Vacuum Flask 1L,Home & Kitchen,899,2,The box was damaged and the packaging was poor.,2025-11-05
+769,U086,Arjun Pillai,P011,Fast-Fashion Hoodie,Fashion,999,2,"Customer support was rude and never solved my issue. Size is wrong, the fit is very tight. Delivery was very late and the tracking was useless.",2025-10-05
+770,U087,Lakshmi Raj,P028,Sunscreen SPF50,Beauty,449,4,Great value for the price. Saw visible results in two weeks.,2025-02-23
+771,U087,Lakshmi Raj,P026,Herbal Shampoo,Beauty,349,4,"Smells lovely and fresh. Saw visible results in two weeks. Well packed, the box was in perfect condition.",2024-12-17
+772,U087,Lakshmi Raj,P020,Mystery Novel Collection,Books,549,3,Decent but not amazing. No reply from customer service and the refund took forever.,2024-03-10
+773,U087,Lakshmi Raj,P029,Hair Oil Natural,Beauty,299,4,"Well packed, the box was in perfect condition. Saw visible results in two weeks. Great value for the price.",2024-01-19
+774,U087,Lakshmi Raj,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Delivery was very late and the tracking was useless. Mixed feelings, some things are good and some are not.",2024-07-01
+775,U087,Lakshmi Raj,P002,Smart Watch X2,Electronics,3999,3,"Packaging was neat and secure. Works as described, neither good nor bad. Poor quality, it feels cheap and flimsy. Battery drains very fast, terrible battery life.",2025-11-09
+776,U087,Lakshmi Raj,P030,Budget Face Cream,Beauty,199,2,Delivery was very late and the tracking was useless.,2024-07-23
+777,U087,Lakshmi Raj,P011,Fast-Fashion Hoodie,Fashion,999,2,Overpriced for what you get.,2024-08-13
+778,U087,Lakshmi Raj,P014,Air Fryer 4L,Home & Kitchen,5499,5,Very durable and built to last. Support team solved my issue right away.,2024-04-20
+779,U087,Lakshmi Raj,P027,Matte Lipstick Set,Beauty,799,4,Very affordable and worth every penny of the money. Delivery was fast and the item arrived early.,2024-12-31
+780,U087,Lakshmi Raj,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Customer service was helpful and replied quickly. Not durable, it broke within a month. Runs quietly.",2024-03-08
+781,U087,Lakshmi Raj,P025,Vitamin C Serum,Beauty,599,5,Support team solved my issue right away.,2025-08-05
+782,U088,Rohit Iyer,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,"Shipping took two weeks, really disappointed with the delivery. Customer service was helpful and replied quickly.",2024-03-10
+783,U088,Rohit Iyer,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Packaging was neat and secure. Great value for the price. Runs quietly.,2024-01-22
+784,U088,Rohit Iyer,P009,Cotton Kurta Set,Fashion,1299,4,Really good quality and well made. Fits perfectly and true to size.,2024-06-04
+785,U088,Rohit Iyer,P007,Classic Denim Jacket,Fashion,2299,4,Fabric is soft and comfortable. Fits perfectly and true to size. Great value for the price.,2024-02-10
+786,U088,Rohit Iyer,P015,Electric Kettle,Home & Kitchen,1199,5,Really good quality and well made.,2025-11-11
+787,U088,Rohit Iyer,P014,Air Fryer 4L,Home & Kitchen,5499,5,Packaging was neat and secure. Runs quietly.,2024-03-07
+788,U088,Rohit Iyer,P004,Power Bank 20000mAh,Electronics,1499,5,Really good quality and well made. Packaging was neat and secure. Customer service was helpful and replied quickly.,2025-08-29
+789,U088,Rohit Iyer,P017,LED Study Lamp,Home & Kitchen,699,4,No reply from customer service and the refund took forever.,2025-10-12
+790,U088,Rohit Iyer,P003,Bluetooth Speaker Mini,Electronics,1799,4,"Sound quality is crisp and clear. Well packed, the box was in perfect condition.",2025-01-03
+791,U088,Rohit Iyer,P022,Self-Growth Guide,Books,399,3,"Stopped working after a week, very poor quality. Delivery was very late and the tracking was useless. Mixed feelings, some things are good and some are not.",2024-01-21
+792,U088,Rohit Iyer,P008,Running Shoes Air,Fashion,3499,4,"Support team solved my issue right away. Excellent quality, feels premium.",2025-01-24
+793,U088,Rohit Iyer,P021,Python for Beginners,Books,449,4,Print quality is sharp and the paper is good.,2024-01-05
+794,U089,Nisha Pillai,P018,Vacuum Flask 1L,Home & Kitchen,899,4,"The box was damaged and the packaging was poor. Excellent quality, feels premium. Arrived on time, shipping was quick.",2025-10-18
+795,U089,Nisha Pillai,P028,Sunscreen SPF50,Beauty,449,4,"Saw visible results in two weeks. Skin feels soft and glowing, no irritation. Smells lovely and fresh.",2024-12-22
+796,U089,Nisha Pillai,P017,LED Study Lamp,Home & Kitchen,699,3,"It is okay, nothing special. Shipping took two weeks, really disappointed with the delivery. Not durable, it broke within a month. Easy to clean and maintain.",2025-01-05
+797,U089,Nisha Pillai,P022,Self-Growth Guide,Books,399,3,"No reply from customer service and the refund took forever. Arrived on time, shipping was quick. Print quality is sharp and the paper is good. It is fine, I expected a bit more.",2025-02-11
+798,U089,Nisha Pillai,P014,Air Fryer 4L,Home & Kitchen,5499,4,"Well packed, the box was in perfect condition. Arrived on time, shipping was quick. Very durable and built to last.",2025-02-25
+799,U089,Nisha Pillai,P021,Python for Beginners,Books,449,5,"Arrived on time, shipping was quick.",2025-05-18
+800,U089,Nisha Pillai,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,Easy to clean and maintain. Packaging was neat and secure.,2025-11-01
+801,U089,Nisha Pillai,P015,Electric Kettle,Home & Kitchen,1199,4,Great value for the price.,2025-08-03
+802,U089,Nisha Pillai,P024,Cheap Reprint Classics,Books,199,3,"Works as described, neither good nor bad. Print quality is sharp and the paper is good. Poor quality, it feels cheap and flimsy.",2024-07-15
+803,U090,Karthik Pillai,P014,Air Fryer 4L,Home & Kitchen,5499,4,Delivery was fast and the item arrived early.,2025-11-19
+804,U090,Karthik Pillai,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Poor quality, it feels cheap and flimsy. It is fine, I expected a bit more.",2024-02-12
+805,U090,Karthik Pillai,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,Very durable and built to last. Support team solved my issue right away.,2025-05-12
+806,U090,Karthik Pillai,P030,Budget Face Cream,Beauty,199,2,"The smell is strong and unpleasant. Poor quality, it feels cheap and flimsy.",2024-09-02
+807,U090,Karthik Pillai,P001,Wireless Earbuds Pro,Electronics,2499,4,"Packaging was careless, the item came in a dented box.",2024-05-22
+808,U090,Karthik Pillai,P028,Sunscreen SPF50,Beauty,449,3,"Mixed feelings, some things are good and some are not. No visible results even after a month. Customer support was rude and never solved my issue.",2024-09-11
+809,U091,Suresh Kumar,P012,Sports Cap,Fashion,399,3,"Mixed feelings, some things are good and some are not. Fits perfectly and true to size.",2025-09-19
+810,U091,Suresh Kumar,P008,Running Shoes Air,Fashion,3499,3,Decent but not amazing. Overpriced for what you get.,2025-09-13
+811,U091,Suresh Kumar,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Average product, does the job. Too expensive, not worth the money. Poor quality, it feels cheap and flimsy.",2025-07-15
+812,U091,Suresh Kumar,P003,Bluetooth Speaker Mini,Electronics,1799,4,"The box was damaged and the packaging was poor. Arrived on time, shipping was quick. Stopped working after a week, very poor quality.",2025-11-06
+813,U091,Suresh Kumar,P005,Budget Smartphone S1,Electronics,8999,3,"Mixed feelings, some things are good and some are not. Too expensive, not worth the money.",2025-11-17
+814,U091,Suresh Kumar,P009,Cotton Kurta Set,Fashion,1299,4,"Well packed, the box was in perfect condition. Fits perfectly and true to size. Great value for the price.",2024-08-17
+815,U091,Suresh Kumar,P006,Gaming Mouse RGB,Electronics,999,4,"Excellent quality, feels premium. Battery drains very fast, terrible battery life. Delivery was fast and the item arrived early.",2024-12-14
+816,U091,Suresh Kumar,P011,Fast-Fashion Hoodie,Fashion,999,2,"Stopped working after a week, very poor quality. Fabric feels rough and the stitching came apart. Color faded after the first wash.",2025-08-27
+817,U091,Suresh Kumar,P002,Smart Watch X2,Electronics,3999,5,Support team solved my issue right away.,2024-11-19
+818,U091,Suresh Kumar,P017,LED Study Lamp,Home & Kitchen,699,4,"Customer service was helpful and replied quickly. Well packed, the box was in perfect condition. Very durable and built to last.",2024-05-30
+819,U091,Suresh Kumar,P013,Non-Stick Cookware Set,Home & Kitchen,2799,5,Runs quietly.,2025-10-08
+820,U092,Priya Sharma,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Shipping took two weeks, really disappointed with the delivery. Hard to clean and the coating peeled off. Packaging was careless, the item came in a dented box.",2024-08-18
+821,U092,Priya Sharma,P009,Cotton Kurta Set,Fashion,1299,3,"Packaging was careless, the item came in a dented box. Customer support was rude and never solved my issue. It is fine, I expected a bit more.",2025-02-04
+822,U092,Priya Sharma,P010,Leather Wallet,Fashion,799,3,"Shipping took two weeks, really disappointed with the delivery. Fabric is soft and comfortable. Average product, does the job.",2024-05-14
+823,U092,Priya Sharma,P011,Fast-Fashion Hoodie,Fashion,999,2,"Poor quality, it feels cheap and flimsy.",2024-08-02
+824,U092,Priya Sharma,P008,Running Shoes Air,Fashion,3499,5,Very affordable and worth every penny of the money.,2025-08-12
+825,U092,Priya Sharma,P021,Python for Beginners,Books,449,4,"Well packed, the box was in perfect condition. Delivery was fast and the item arrived early.",2024-12-30
+826,U092,Priya Sharma,P017,LED Study Lamp,Home & Kitchen,699,4,"Arrived on time, shipping was quick.",2025-02-17
+827,U092,Priya Sharma,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"Hard to clean and the coating peeled off. Very noisy while working. It is okay, nothing special. Very durable and built to last.",2025-10-30
+828,U092,Priya Sharma,P004,Power Bank 20000mAh,Electronics,1499,3,"It is fine, I expected a bit more. Performance is laggy and it keeps hanging.",2024-03-25
+829,U092,Priya Sharma,P016,Mixer Grinder 750W,Home & Kitchen,3299,2,"Too expensive, not worth the money. Poor quality, it feels cheap and flimsy. Easy to clean and maintain.",2024-04-06
+830,U092,Priya Sharma,P023,History Illustrated,Books,899,3,"Poor quality, it feels cheap and flimsy. It is fine, I expected a bit more.",2025-07-04
+831,U092,Priya Sharma,P026,Herbal Shampoo,Beauty,349,3,"The box was damaged and the packaging was poor. Smells lovely and fresh. It is okay, nothing special. Saw visible results in two weeks.",2024-03-06
+832,U093,Priya Iyer,P012,Sports Cap,Fashion,399,3,"Decent but not amazing. Packaging was careless, the item came in a dented box.",2024-02-05
+833,U093,Priya Iyer,P029,Hair Oil Natural,Beauty,299,3,"Mixed feelings, some things are good and some are not. Support team solved my issue right away. It caused skin irritation and breakouts. No visible results even after a month.",2024-02-17
+834,U093,Priya Iyer,P022,Self-Growth Guide,Books,399,3,"It is fine, I expected a bit more. Packaging was neat and secure.",2024-08-30
+835,U093,Priya Iyer,P011,Fast-Fashion Hoodie,Fashion,999,3,"Well packed, the box was in perfect condition. Decent but not amazing. Customer support was rude and never solved my issue.",2025-09-29
+836,U093,Priya Iyer,P004,Power Bank 20000mAh,Electronics,1499,4,"Sound quality is crisp and clear. Battery life is excellent, lasts all day. The box was damaged and the packaging was poor.",2024-09-17
+837,U093,Priya Iyer,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"Too expensive, not worth the money. Poor quality, it feels cheap and flimsy. Packaging was neat and secure.",2025-06-07
+838,U094,Pooja Raj,P002,Smart Watch X2,Electronics,3999,4,Very affordable and worth every penny of the money. Sound quality is crisp and clear.,2024-12-07
+839,U094,Pooja Raj,P029,Hair Oil Natural,Beauty,299,3,"It is fine, I expected a bit more. No reply from customer service and the refund took forever.",2024-05-06
+840,U094,Pooja Raj,P008,Running Shoes Air,Fashion,3499,5,Customer service was helpful and replied quickly. Color looks exactly like the photos.,2025-08-08
+841,U094,Pooja Raj,P004,Power Bank 20000mAh,Electronics,1499,5,"Sound quality is crisp and clear. Excellent quality, feels premium. Customer service was helpful and replied quickly.",2025-06-28
+842,U094,Pooja Raj,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"Not durable, it broke within a month. Mixed feelings, some things are good and some are not.",2024-09-30
+843,U094,Pooja Raj,P014,Air Fryer 4L,Home & Kitchen,5499,4,"Customer service was helpful and replied quickly. Great value for the price. Stopped working after a week, very poor quality.",2025-04-24
+844,U094,Pooja Raj,P018,Vacuum Flask 1L,Home & Kitchen,899,3,"Packaging was neat and secure. Delivery was fast and the item arrived early. Very durable and built to last. It is okay, nothing special.",2024-04-02
+845,U094,Pooja Raj,P028,Sunscreen SPF50,Beauty,449,3,"No visible results even after a month. Customer service was helpful and replied quickly. It is okay, nothing special.",2024-05-19
+846,U094,Pooja Raj,P017,LED Study Lamp,Home & Kitchen,699,5,Very durable and built to last. Packaging was neat and secure. Runs quietly.,2025-12-20
+847,U094,Pooja Raj,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Sound quality is crisp and clear. It is okay, nothing special.",2024-12-27
+848,U094,Pooja Raj,P006,Gaming Mouse RGB,Electronics,999,4,"Well packed, the box was in perfect condition.",2025-11-26
+849,U095,Anjali Reddy,P013,Non-Stick Cookware Set,Home & Kitchen,2799,3,"It is okay, nothing special. Delivery was very late and the tracking was useless. Really good quality and well made. Support team solved my issue right away.",2025-10-20
+850,U095,Anjali Reddy,P005,Budget Smartphone S1,Electronics,8999,4,"Battery life is excellent, lasts all day. Delivery was fast and the item arrived early.",2024-07-09
+851,U095,Anjali Reddy,P006,Gaming Mouse RGB,Electronics,999,4,Really good quality and well made. Performance is smooth and responsive.,2025-11-03
+852,U095,Anjali Reddy,P011,Fast-Fashion Hoodie,Fashion,999,2,Color faded after the first wash.,2024-10-02
+853,U095,Anjali Reddy,P002,Smart Watch X2,Electronics,3999,4,"Excellent quality, feels premium. Arrived on time, shipping was quick. The box was damaged and the packaging was poor.",2025-01-02
+854,U095,Anjali Reddy,P019,Data Science Handbook,Books,699,4,Very affordable and worth every penny of the money. Delivery was fast and the item arrived early. Really good quality and well made.,2025-05-05
+855,U095,Anjali Reddy,P012,Sports Cap,Fashion,399,4,The box was damaged and the packaging was poor.,2025-02-02
+856,U095,Anjali Reddy,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Arrived on time, shipping was quick. Sound quality is crisp and clear. Decent but not amazing. Battery life is excellent, lasts all day.",2024-12-18
+857,U095,Anjali Reddy,P001,Wireless Earbuds Pro,Electronics,2499,4,"Excellent quality, feels premium.",2025-06-07
+858,U095,Anjali Reddy,P027,Matte Lipstick Set,Beauty,799,3,"Average product, does the job. Smells lovely and fresh.",2025-12-18
+859,U095,Anjali Reddy,P030,Budget Face Cream,Beauty,199,2,"Too expensive, not worth the money.",2024-08-22
+860,U096,Arjun Iyer,P022,Self-Growth Guide,Books,399,3,"Customer support was rude and never solved my issue. It is okay, nothing special. Very affordable and worth every penny of the money.",2025-01-24
+861,U096,Arjun Iyer,P009,Cotton Kurta Set,Fashion,1299,4,Customer service was helpful and replied quickly. Great value for the price.,2024-10-02
+862,U096,Arjun Iyer,P003,Bluetooth Speaker Mini,Electronics,1799,3,"Battery life is excellent, lasts all day. It is fine, I expected a bit more.",2024-01-01
+863,U096,Arjun Iyer,P002,Smart Watch X2,Electronics,3999,4,Customer service was helpful and replied quickly. Delivery was fast and the item arrived early.,2025-01-07
+864,U096,Arjun Iyer,P007,Classic Denim Jacket,Fashion,2299,5,Fits perfectly and true to size. Packaging was neat and secure. Color looks exactly like the photos.,2025-01-05
+865,U096,Arjun Iyer,P001,Wireless Earbuds Pro,Electronics,2499,5,Performance is smooth and responsive.,2024-07-14
+866,U097,Pooja Singh,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,Very affordable and worth every penny of the money.,2024-06-06
+867,U097,Pooja Singh,P024,Cheap Reprint Classics,Books,199,3,"Overpriced for what you get. Decent but not amazing. Poor quality, it feels cheap and flimsy.",2025-07-27
+868,U097,Pooja Singh,P018,Vacuum Flask 1L,Home & Kitchen,899,2,Overpriced for what you get.,2025-05-30
+869,U097,Pooja Singh,P014,Air Fryer 4L,Home & Kitchen,5499,5,Easy to clean and maintain.,2025-12-11
+870,U097,Pooja Singh,P009,Cotton Kurta Set,Fashion,1299,3,"Fabric feels rough and the stitching came apart. Excellent quality, feels premium. Average product, does the job.",2025-06-05
+871,U097,Pooja Singh,P020,Mystery Novel Collection,Books,549,5,Support team solved my issue right away. The story is engaging and well written.,2025-06-09
+872,U097,Pooja Singh,P015,Electric Kettle,Home & Kitchen,1199,4,Packaging was neat and secure. Runs quietly. Hard to clean and the coating peeled off.,2024-10-01
+873,U097,Pooja Singh,P028,Sunscreen SPF50,Beauty,449,4,"Excellent quality, feels premium.",2025-10-19
+874,U097,Pooja Singh,P021,Python for Beginners,Books,449,5,"Very affordable and worth every penny of the money. Print quality is sharp and the paper is good. Arrived on time, shipping was quick.",2025-10-09
+875,U097,Pooja Singh,P016,Mixer Grinder 750W,Home & Kitchen,3299,4,Customer service was helpful and replied quickly.,2024-12-30
+876,U097,Pooja Singh,P019,Data Science Handbook,Books,699,5,The story is engaging and well written.,2025-08-20
+877,U097,Pooja Singh,P029,Hair Oil Natural,Beauty,299,3,"Really good quality and well made. Smells lovely and fresh. Saw visible results in two weeks. Works as described, neither good nor bad.",2025-09-10
+878,U098,Rahul Das,P020,Mystery Novel Collection,Books,549,5,Customer service was helpful and replied quickly.,2024-06-29
+879,U098,Rahul Das,P022,Self-Growth Guide,Books,399,4,The story is engaging and well written. Customer service was helpful and replied quickly.,2024-06-30
+880,U098,Rahul Das,P019,Data Science Handbook,Books,699,5,Delivery was fast and the item arrived early. The story is engaging and well written.,2025-10-22
+881,U098,Rahul Das,P014,Air Fryer 4L,Home & Kitchen,5499,4,Great value for the price.,2025-10-21
+882,U098,Rahul Das,P010,Leather Wallet,Fashion,799,4,Delivery was very late and the tracking was useless. Fabric is soft and comfortable. Color faded after the first wash.,2025-10-04
+883,U098,Rahul Das,P007,Classic Denim Jacket,Fashion,2299,3,"It is okay, nothing special. Customer service was helpful and replied quickly.",2025-03-30
+884,U098,Rahul Das,P021,Python for Beginners,Books,449,4,Customer service was helpful and replied quickly. Delivery was fast and the item arrived early. The story is engaging and well written.,2024-09-30
+885,U099,Rahul Kumar,P006,Gaming Mouse RGB,Electronics,999,5,"Sound quality is crisp and clear. Battery life is excellent, lasts all day. Performance is smooth and responsive.",2024-08-19
+886,U099,Rahul Kumar,P004,Power Bank 20000mAh,Electronics,1499,5,Packaging was neat and secure. Great value for the price.,2025-09-22
+887,U099,Rahul Kumar,P002,Smart Watch X2,Electronics,3999,3,"Too expensive, not worth the money. Decent but not amazing. Battery life is excellent, lasts all day.",2025-11-26
+888,U099,Rahul Kumar,P018,Vacuum Flask 1L,Home & Kitchen,899,2,"The box was damaged and the packaging was poor. Hard to clean and the coating peeled off. Shipping took two weeks, really disappointed with the delivery.",2024-09-28
+889,U099,Rahul Kumar,P010,Leather Wallet,Fashion,799,4,Fabric feels rough and the stitching came apart.,2024-03-09
+890,U099,Rahul Kumar,P003,Bluetooth Speaker Mini,Electronics,1799,2,"Too expensive, not worth the money.",2024-11-26
+891,U099,Rahul Kumar,P008,Running Shoes Air,Fashion,3499,3,"Size is wrong, the fit is very tight. Decent but not amazing. Well packed, the box was in perfect condition. Color faded after the first wash.",2025-02-27
+892,U100,Karthik Singh,P006,Gaming Mouse RGB,Electronics,999,4,"Poor quality, it feels cheap and flimsy.",2025-01-05
+893,U100,Karthik Singh,P011,Fast-Fashion Hoodie,Fashion,999,3,Fits perfectly and true to size. Decent but not amazing.,2024-04-22
+894,U100,Karthik Singh,P007,Classic Denim Jacket,Fashion,2299,4,"Excellent quality, feels premium. Packaging was neat and secure.",2025-07-18
+895,U100,Karthik Singh,P030,Budget Face Cream,Beauty,199,3,"The smell is strong and unpleasant. It is okay, nothing special. Great value for the price. Arrived on time, shipping was quick.",2024-01-27
+896,U100,Karthik Singh,P009,Cotton Kurta Set,Fashion,1299,3,"Fabric is soft and comfortable. Packaging was careless, the item came in a dented box. Color looks exactly like the photos. Mixed feelings, some things are good and some are not.",2024-01-13
+897,U100,Karthik Singh,P026,Herbal Shampoo,Beauty,349,4,Great value for the price.,2025-10-19
+898,U100,Karthik Singh,P013,Non-Stick Cookware Set,Home & Kitchen,2799,4,"Runs quietly. Support team solved my issue right away. Not durable, it broke within a month.",2025-03-09
+899,U100,Karthik Singh,P029,Hair Oil Natural,Beauty,299,2,Really good quality and well made. No visible results even after a month. No reply from customer service and the refund took forever.,2024-05-08
+900,U100,Karthik Singh,P016,Mixer Grinder 750W,Home & Kitchen,3299,3,"Works as described, neither good nor bad. Easy to clean and maintain. Very noisy while working. Excellent quality, feels premium.",2025-10-30
+901,U100,Karthik Singh,P021,Python for Beginners,Books,449,4,Customer service was helpful and replied quickly.,2024-10-15
+902,U100,Karthik Singh,P020,Mystery Novel Collection,Books,549,3,"Works as described, neither good nor bad. Customer service was helpful and replied quickly.",2024-11-12
