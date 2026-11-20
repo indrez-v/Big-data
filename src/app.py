@@ -1,6 +1,7 @@
 import os, re, json
 import numpy as np
 import pandas as pd
+import joblib
 from flask import Flask, jsonify, request, render_template
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -13,6 +14,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data", "reviews.csv")
+MODELS_DIR = os.path.join(BASE, "models")
+OUTPUTS_DIR = os.path.join(BASE, "outputs")
+os.makedirs(MODELS_DIR, exist_ok=True)
+os.makedirs(OUTPUTS_DIR, exist_ok=True)
 if not os.path.exists(DATA):
     from src import generate_dataset
     generate_dataset.main()
@@ -66,6 +71,8 @@ for name, clf in MODELS.items():
     confusions[name] = confusion_matrix(yte, pred, labels=LABELS).tolist()
     reports[name] = classification_report(yte, pred, labels=LABELS, output_dict=True, zero_division=0)
     trained[name] = pipe
+    model_filename = name.lower().replace(" ", "_") + ".joblib"
+    joblib.dump(pipe, os.path.join(MODELS_DIR, model_filename))
 
 DEPLOYED = "Logistic Regression"   # gives probabilities + interpretable features
 model = trained[DEPLOYED]
@@ -242,6 +249,20 @@ def evaluate_recsys(K=5, seed=7):
 
 
 RECSYS_EVAL = evaluate_recsys()
+evaluation_report = dict(
+    dataset=dict(reviews=len(df), customers=df.user_id.nunique(), products=df.product_id.nunique()),
+    sentiment=dict(
+        deployed_model=DEPLOYED,
+        comparison=comparison,
+        labels=LABELS,
+        confusion_matrices=confusions,
+        classification_reports=reports,
+        cross_validation=dict(folds=5, macro_f1_mean=cv_scores.mean(), macro_f1_std=cv_scores.std())),
+    recommender=RECSYS_EVAL)
+with open(os.path.join(OUTPUTS_DIR, "evaluation_report.json"), "w", encoding="utf-8") as report_file:
+    json.dump(evaluation_report, report_file, indent=2, default=conv)
+pd.DataFrame(comparison).to_csv(
+    os.path.join(OUTPUTS_DIR, "sentiment_model_comparison.csv"), index=False)
 print("Model ready ->", DEPLOYED, "| reviews:", len(df))
 
 

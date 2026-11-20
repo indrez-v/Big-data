@@ -20,9 +20,15 @@ sentiment_recsys/
 ├── app.py                 # Root entry point for starting the Flask app
 ├── data/
 │   └── reviews.csv        # Sample customer reviews
-├── models/                # Reserved for saved model artifacts
-├── notebooks/             # Reserved for analysis notebooks
-├── outputs/               # Reserved for generated reports and results
+├── models/
+│   ├── logistic_regression.joblib
+│   ├── linear_svm.joblib
+│   └── naive_bayes.joblib
+├── notebooks/
+│   └── sentiment_analysis.ipynb
+├── outputs/
+│   ├── evaluation_report.json
+│   └── sentiment_model_comparison.csv
 ├── requirements.txt       # Python package dependencies
 └── src/
     ├── __init__.py
@@ -32,7 +38,7 @@ sentiment_recsys/
         └── index.html     # Web dashboard
 ```
 
-The sentiment models are trained when the app starts and kept in memory; trained model files are not currently saved to `models/`. The `notebooks/` and `outputs/` folders are included for future analysis notebooks and generated results.
+When the app starts, it trains and saves the sentiment classifiers under `models/`, then writes evaluation metrics to `outputs/`. The notebook provides a separate place to explore the dataset and evaluation results.
 
 ## Requirements
 
@@ -80,8 +86,24 @@ The app reads reviews from `data/reviews.csv`. If the file is missing, it genera
 python -m src.generate_dataset
 ```
 
+## Explore the Analysis Notebook
+
+Install Jupyter if it is not already available:
+
+```powershell
+python -m pip install notebook
+```
+
+Start Jupyter from the project directory and open `notebooks/sentiment_analysis.ipynb`:
+
+```powershell
+python -m notebook
+```
+
+The notebook imports the project analysis, so it also trains the models and refreshes the files in `models/` and `outputs/`.
+
 ## Dependencies
 
-Dependencies are listed in `requirements.txt`: Flask, pandas, NumPy, and scikit-learn.
+Dependencies are listed in `requirements.txt`: Flask, pandas, NumPy, scikit-learn, and joblib.
 
 The dashboard loads Chart.js from a CDN, so an internet connection is needed to display its charts.
