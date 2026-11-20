@@ -15,16 +15,24 @@ A Flask web application that analyzes customer reviews, identifies common compla
 
 ```text
 sentiment_recsys/
-├── app.py                 # Flask app, model training, analysis, recommender, and API routes
-├── generate_dataset.py    # Creates the sample review dataset
-├── requirements.txt       # Python package dependencies
+├── .gitignore
+├── README.md
+├── app.py                 # Root entry point for starting the Flask app
 ├── data/
 │   └── reviews.csv        # Sample customer reviews
-└── templates/
-    └── index.html         # Web dashboard
+├── models/                # Reserved for saved model artifacts
+├── notebooks/             # Reserved for analysis notebooks
+├── outputs/               # Reserved for generated reports and results
+├── requirements.txt       # Python package dependencies
+└── src/
+    ├── __init__.py
+    ├── app.py             # Flask routes, model training, and recommender
+    ├── generate_dataset.py  # Sample review dataset generator
+    └── templates/
+        └── index.html     # Web dashboard
 ```
 
-The sentiment models are trained when the app starts and kept in memory; trained model files are not currently saved to a `models/` directory.
+The sentiment models are trained when the app starts and kept in memory; trained model files are not currently saved to `models/`. The `notebooks/` and `outputs/` folders are included for future analysis notebooks and generated results.
 
 ## Requirements
 
@@ -36,8 +44,8 @@ The sentiment models are trained when the app starts and kept in memory; trained
 1. Clone the repository and move into the project directory:
 
    ```powershell
-   git clone <repository-url>
-   cd sentiment_recsys
+   git clone https://github.com/indrez-v/Big-data.git
+   cd Big-data
    ```
 
 2. Create and activate a virtual environment:
@@ -69,7 +77,7 @@ Wait for the startup message in the terminal, then open [http://127.0.0.1:5000/]
 The app reads reviews from `data/reviews.csv`. If the file is missing, it generates a sample dataset automatically. To regenerate the dataset manually, run:
 
 ```powershell
-python generate_dataset.py
+python -m src.generate_dataset
 ```
 
 ## Dependencies

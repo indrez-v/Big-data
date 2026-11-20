@@ -97,8 +97,9 @@ def main(n_users=100, seed=42):
                              review_date=date.strftime("%Y-%m-%d")))
             rid += 1
 
-    os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"), exist_ok=True)
-    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "reviews.csv")
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    os.makedirs(os.path.join(base, "data"), exist_ok=True)
+    path = os.path.join(base, "data", "reviews.csv")
     pd.DataFrame(rows).to_csv(path, index=False)
     print(f"Dataset created: {path} ({len(rows)} reviews)")
 
